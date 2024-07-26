@@ -1,0 +1,131 @@
+[
+    {
+        "que_id": 1,
+        "question_label": "Are you a Community College or Van Ness student?",
+        "ques_type": "Categorical",
+        "options": [
+            {
+                "id": 1,
+                "label": "Community College"
+            },
+            {
+                "id": 2,
+                "label": "Van Ness"
+            }
+        ]
+    },
+    {
+        "que_id": 2,
+        "question_label": "Are you a part-time or full-time student?",
+        "ques_type": "Categorical",
+        "options": [
+            {
+                "id": 1,
+                "label": "Part-time student"
+            },
+            {
+                "id": 2,
+                "label": "Full-time student"
+            }
+        ]
+    },
+    {
+        "que_id": 3,
+        "question_label": "Are you an undergraduate or graduate student?",
+        "ques_type": "Categorical",
+        "options": [
+            {
+                "id": 1,
+                "label": "Undergraduate"
+            },
+            {
+                "id": 2,
+                "label": "Graduate"
+            }
+        ]
+    },
+    {
+        "que_id": 4,
+        "question_label": "Are you an international student?",
+        "ques_type": "Binary",
+        "options": [
+            {
+                "id": 1,
+                "label": "No"
+            },
+            {
+                "id": 2,
+                "label": "Yes"
+            },
+            {
+                "id": 3,
+                "label": "Prefer not to respond"
+            }
+        ]
+    },
+    {
+        "que_id": 5,
+        "question_label": "Are you the first person in your immediate family to attend college?",
+        "ques_type": "Binary",
+        "options": [
+            {
+                "id": 1,
+                "label": "No"
+            },
+            {
+                "id": 2,
+                "label": "Yes"
+            },
+            {
+                "id": 3,
+                "label": "Prefer not to respond"
+            }
+        ]
+    },
+    {
+        "que_id": 6,
+        "question_label": "Are you an honors student?",
+        "ques_type": "Binary",
+        "options": [
+            {
+                "id": 1,
+                "label": "No"
+            },
+            {
+                "id": 2,
+                "label": "Yes"
+            },
+            {
+                "id": 3,
+                "label": "Prefer not to respond"
+            }
+        ]
+    },
+    {
+        "que_id": 7,
+        "question_label": "What do you expect your GPA to be at the end of this semester?",
+        "ques_type": "Likert",
+        "options": [
+            {
+                "id": 1,
+                "label": "Below 2.0"
+            },
+            {
+                "id": 2,
+                "label": "2.0 - 2.49"
+            },
+            {
+                "id": 3,
+                "label": "2.5 - 3.49"
+            },
+            {
+                "id": 4,
+                "label": "3.5 - 3.99 "
+            },
+            {
+                "id": 5,
+                "label": "4.0 and above"
+            }
+        ]
+    }
+]

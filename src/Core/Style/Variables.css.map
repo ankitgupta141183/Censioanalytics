@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AA4CA,mCAAmC",
+    "sources": [
+        "Variables.scss"
+    ],
+    "names": [],
+    "file": "Variables.css"
+}

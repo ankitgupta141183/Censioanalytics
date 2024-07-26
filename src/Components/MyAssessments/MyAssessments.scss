@@ -1,0 +1,35 @@
+@import "../../Core/Style/Variables";
+
+.my-assessments-page-inner {
+  .page-header {
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    margin-bottom: 25px;
+
+    &__left {
+      &__title {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 800;
+        color: $color__fill-primary;
+      }
+    }
+    &__right {
+      &__button {
+        button {
+          background: $primary_color !important;
+          color: $color__fill-white !important;
+          padding: 18px 28px !important;
+          // text-transform: uppercase !important;
+          &:hover {
+            background: rgba($color__fill-primary, 0.5) !important;
+          }
+        }
+      }
+    }
+  }
+  .H1DesktopPrimary {
+    color: $color__fill-primary !important;
+  }
+}

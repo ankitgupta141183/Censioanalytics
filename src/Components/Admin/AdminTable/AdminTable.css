@@ -1,0 +1,164 @@
+.filters button {
+  padding: 10px 25px;
+  background-color: #1b75bc;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.admin-table-com {
+  margin-top: 16px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.admin-table-com h1 {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.admin-table-com h3 {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.filters input {
+  width: 400px;
+  height: 45px;
+  padding: 0 16px;
+}
+
+.admin-table-com tr {
+  margin: 5px;
+}
+.Admin_Table thead th {
+  border-right: 2px solid #e6ebef;
+}
+
+.Admin_Table thead th:last-child {
+  border-right: none;
+}
+.filter_admin-row {
+  position: relative;
+}
+.filter_admin-row button {
+  padding: 0 !important;
+  background: transparent !important;
+  margin: 0px !important;
+  position: absolute;
+  right: 4px;
+  top: 18px;
+  z-index: 1;
+}
+.filter_admin-row i {
+  margin: 0 !important;
+  z-index: -1;
+  position: relative;
+}
+/* .filter_admin-row input[type="checkbox"]{
+  width: 39% !important;
+} */
+.filter_admin-row input[type="text"] {
+  width: 86% !important;
+  border: 1px solid #e6ebef !important;
+  padding: 10px 4px !important;
+  font-size: 13px !important;
+  height: 30px !important;
+}
+.filter_admin-row input[type="number"] {
+  width: 86% !important;
+  border: 1px solid #e6ebef !important;
+  padding: 10px 4px !important;
+  font-size: 13px !important;
+  height: 30px !important;
+}
+.Admin_Table .filter_admin-row select {
+  width: 100% !important;
+  border: 1px solid #e6ebef !important;
+  padding: 6px 4px !important;
+  font-size: 13px;
+  margin: 0 !important;
+  color: rgb(199 199 199);
+  line-height: 1.21428571em;
+  height: 30px !important;
+}
+.clear-filter-btn {
+  margin: 0 0 8px 0 !important;
+  /* position: absolute;
+  top: -30px; */
+  float: left;
+  padding: 11px 10px !important;
+}
+.game_select{
+  border-radius: 7px;
+  border: 2px solid #e6ebef !important;
+  padding: 8px 8px !important;
+  color: #8e8b8b;
+  width: auto !important;
+}
+
+/* .active-filter {
+  margin: 0 0 8px 0 !important;
+  position: absolute;
+  top: -30px;
+  padding: 6px 10px !important;
+  color:red !important;
+} */
+.Admin_Table .filter_admin-row button[name="Status"] {
+  display: none;
+}
+.Admin_Table .filter_admin-row select:focus-visible {
+  outline: none;
+}
+.Admin_Table .filter_admin-row select::-ms-expand {
+  display: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.admin_user_id{
+    background: #1d76bd;
+    color: #ede7e7;
+    padding: 1px 5px;
+    border-radius: 3px;
+    text-decoration: none !important;
+}
+.admin_user_id:hover{
+    color: #ede7e7;
+}
+.admin-tab-header{
+      margin: 0 0 10px 0 !important;
+}
+.export-btn{
+  /* position: absolute;
+  right: 0;
+  top: -30px; */
+  float: right;
+  padding: 11px 10px !important;
+  margin: 0 0 14px 0 !important;
+}
+.export-btn i{
+  margin: 0 !important;
+}
+.admin-custom-checkbox{
+  width: 39% !important;
+}
+.custom-grey-active_btn{
+  background: #1b75bc none;
+  color: #ffffff;
+  padding: 3px 10px !important;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+}
+.custom-grey_btn{
+  background: #e0e1e2 none;
+  color: #00000099;
+  padding: 3px 10px !important;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+}
+.m-auto{
+  margin: auto !important;
+}

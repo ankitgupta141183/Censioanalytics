@@ -1,0 +1,248 @@
+/*$profile__form-border: #e0e1eb;*/
+.about-page .home-header {
+  background: #ffffff;
+}
+
+.about-page p {
+  font-size: 1.5rem !important;
+}
+
+.about-page .bg-white {
+  background: #ffffff;
+}
+
+.about-page .txt-center {
+  text-align: center;
+}
+
+.about-page .txt-center-justify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-page .home-main {
+  background: #f5f8fe;
+}
+
+.about-page .vt-center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.about-page .discover-sec {
+  background: #f5f8fe;
+  padding: 30px 0;
+}
+
+.about-page .discover-sec .discover-txt {
+  font-size: 3rem !important;
+  font-weight: bold;
+}
+
+.about-page .discover-sec button {
+  margin-top: 30px !important;
+}
+
+.about-page .personality-main-sec {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.about-page .how-it-work-main-sec {
+  padding: 60px 0;
+  background: #202a31;
+  color: #ffffff;
+}
+
+.about-page .how-it-work-main-sec p {
+  color: #ffffff !important;
+}
+
+.about-page .how-it-work-main-sec h1 {
+  color: #ffffff !important;
+  margin-bottom: 30px !important;
+}
+
+.about-page .how-it-work-main-sec button {
+  background: #1b75bc !important;
+  color: #ffffff !important;
+  margin-top: 40px !important;
+}
+
+.about-page .why-choose-main {
+  background: #ffffff;
+  padding: 100px 0;
+}
+
+.about-page .why-choose-main h3 {
+  font-size: 2rem !important;
+  margin-bottom: 10px !important;
+  font-weight: 600;
+  color: #1f3d40 !important;
+}
+
+.about-page .why-choose-main .h-fix-heading {
+  min-height: 5rem;
+}
+
+.about-page .why-choose-main p {
+  color: #728081 !important;
+  font-size: 1.1rem !important;
+}
+
+.about-page .why-choose-main .long-h-fix {
+  min-height: 10rem;
+}
+
+.about-page .why-choose-censio {
+  padding: 100px 0;
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-left: 210px;
+  padding-bottom: 80px;
+}
+
+.about-page .why-choose-censio .why-choose-img {
+  margin-top: -100px;
+}
+
+.about-page .why-choose-censio .checkmark-bottom {
+  margin-top: 60px;
+}
+
+.about-page .why-choose-censio i.check.square.outline.icon {
+  font-size: 21px;
+}
+
+.about-page .why-choose-censio p {
+  color: #212121bf;
+  width: 60%;
+  font-size: 15px;
+}
+
+.about-page .why-choose-censio .why-choose-heading {
+  margin-bottom: 45px;
+  font-size: 4rem !important;
+}
+
+.about-page .why-choose-censio h3 {
+  font-size: 2rem !important;
+  margin-bottom: 10px !important;
+  font-weight: 600;
+}
+
+.about-page .objective-inside {
+  color: #212121bf;
+}
+
+.about-page .potencial-landing {
+  height: 100%;
+  position: relative;
+}
+
+.about-page .potencial-landing .potencial-content {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.about-page .potencial-landing .potencial-content span {
+  border-bottom: 2px solid;
+}
+
+.about-page .potencial-landing .potencial-content p {
+  font-size: 15px;
+}
+
+.about-page .potencial-landing .potencial-content .take-assement {
+  background-color: #1b75bc;
+  color: #ffffff;
+}
+
+.about-page .text-light {
+  color: #000000;
+  font-size: 1.2rem !important;
+}
+
+.about-page .pd-right-none {
+  padding-right: 0px !important;
+}
+
+.about-page .w-100 {
+  width: 100%;
+}
+
+.about-page .bdr-left {
+  border-left: 1px solid #f1f1f1;
+  padding-left: 18px;
+}
+
+.about-page .about-censio {
+  padding: 5rem 0;
+}
+
+.about-page .about-censio h1 {
+  color: #1f3d40 !important;
+  font-size: 56px !important;
+  line-height: 66px !important;
+  font-weight: 700 !important;
+}
+
+.about-page .about-censio .step-dot-img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem 0 0 0;
+}
+
+.about-page .beyond-assesment {
+  margin-left: 210px;
+  margin-top: 100px;
+}
+
+.about-page .beyond-assesment h3.ui.header {
+  margin-bottom: 5px;
+}
+
+.about-page .beyond-assesment .start-bottom {
+  margin-top: 60px;
+}
+
+.about-page .beyond-assesment .start-icon {
+  font-size: 20px !important;
+  background: #ffffff;
+  padding: 5px !important;
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  border-radius: 50px;
+}
+
+.about-page .beyond-assesment p {
+  margin-left: 50px;
+  font-size: 15px;
+  width: 60%;
+}
+
+.about-page .beyond-assesment .beyond-heading {
+  color: #1b75bc;
+  margin-bottom: 45px;
+}
+
+.about-page .mission-sec {
+  padding: 100px 0;
+}
+
+.about-page .mission-sec h1 {
+  font-size: 3.3rem !important;
+}
+/*# sourceMappingURL=About.css.map */

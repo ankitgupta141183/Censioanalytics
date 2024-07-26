@@ -1,0 +1,25 @@
+.talwind-dashboard {
+    font-family: Rubik, sans-serif !important;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
+        font-family: Rubik, sans-serif !important;
+        margin: 0;
+    }
+    .hero-head {
+        h2 {
+                font-size: 1.71428571rem;
+                font-weight: 700;
+        }
+    }
+    .ui.loader {
+        z-index: 0 !important;
+    }
+    .margin-top-loader{
+        margin-top: 5rem !important;
+    }
+}

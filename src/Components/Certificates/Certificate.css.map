@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AC4CA,mCAAmC;AD1CnC,AAAA,iBAAiB,CAAA;EACb,MAAM,EAAE,CAAC;EACT,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;CACtB;;AACD,AAAA,eAAe,CAAA;EACX,aAAa,EAAE,YAAY;CAC9B",
+    "sources": [
+        "Certificate.scss",
+        "../../Core/Style/Variables.scss"
+    ],
+    "names": [],
+    "file": "Certificate.css"
+}

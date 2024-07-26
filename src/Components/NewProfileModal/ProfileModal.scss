@@ -1,0 +1,63 @@
+.profile-popup {
+    position: absolute!important;
+    // margin-right: 2rem !important;
+    right: 0;
+    top: 71%;
+    z-index: 110;
+    height: calc(100vh - 160px);
+    background: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block!important;
+    min-width: 585px!important;
+
+    .profile-popup-close-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: auto!important;
+        background: transparent;
+    }
+
+    .profile-popup-img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+
+    .edit-button{
+        background: transparent;
+        color: #1b75bc;
+        text-decoration: underline;
+        padding: 0;
+    }
+
+    .ui.form .fields{
+        margin: 0 !important;
+    }
+
+    .fields {
+        margin: 0 !important;
+    }
+
+    .mt-16{
+        margin-top: 16px;
+    }
+
+    .ui.tabular.menu{
+        .item{
+            margin-bottom: -2px;
+        }
+    }
+
+    .demographics-header{
+        padding-top: 20px !important;
+      }
+
+    .modal-padding-align{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+}

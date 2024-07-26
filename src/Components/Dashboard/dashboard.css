@@ -1,0 +1,316 @@
+/*$profile__form-border: #e0e1eb;*/
+button.ui.button.logout-button {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+  background-color: #1e1e62cf;
+  color: #ffffff;
+}
+
+.ui.grid > .column:not(.row),
+.ui.grid > .row > .column {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body {
+  background: #f9fbfd;
+}
+
+.header-review {
+  margin-bottom: 30px;
+}
+
+.view-report-section {
+  background: #dededf;
+  border-radius: 15px;
+}
+
+.view-report-section .progress-bar-user {
+  padding: 22px;
+}
+
+.view-report-section .progress-bar-user .your-scrore-count {
+  color: #3f51b5;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.view-report-section .progress-bar-user .score-bar {
+  margin-bottom: 5px;
+}
+
+.view-report-section .progress-bar-user .score-bar .bar {
+  background: #ffffff;
+  height: 10px;
+}
+
+.view-report-section .detail-user {
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 22px;
+  background-color: #d4c6c6;
+}
+
+.dashboard-page {
+  /* padding-top: 133px; */
+  /* margin-left: 225px; */
+  height: calc(100vh - 0px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.dashboard-page .active__game-tab {
+  background-color: transparent !important;
+  border-radius: 0px;
+  border-radius: 0px;
+  color: #1b75bc !important;
+  border-bottom: 2px solid;
+  margin-bottom: -2px;
+  padding: 11px 60px;
+  font-size: 18px;
+}
+
+.dashboard-page .inactive__game-tab {
+  background-color: transparent !important;
+  border-radius: 0px;
+  color: #aaaeb1 !important;
+  padding: 11px 60px;
+  font-size: 18px;
+}
+
+.dashboard-page .game__tab-row {
+  margin: 0 0 20px 0;
+  border-bottom: 2px solid #ebebeb;
+}
+
+.dashboard-page .yellow-button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4cc23), to(#9b7f0c)) !important;
+  background: linear-gradient(#f4cc23, #9b7f0c) !important;
+  border-radius: 20px !important;
+  color: #333 !important;
+}
+
+.dashboard-page .vt-center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.dashboard-page .vt-bottom {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.dashboard-page .opted-program h2 {
+  margin: 18px 0;
+}
+
+.dashboard-page p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #4c4c4c;
+}
+
+.dashboard-page .ui.secondary.menu a.item:hover {
+  background: #cce0f0 !important;
+}
+
+.dashboard-page .assesment-test_sec {
+  background: #F7FAFF;
+  border-radius: 4px;
+  padding: 22px;
+  -webkit-box-shadow: 3px 2px 4px #f1f1f1;
+          box-shadow: 3px 2px 4px #f1f1f1;
+}
+
+.dashboard-page .take-test_btn {
+  background-color: #1b75bc !important;
+  color: #ffffff !important;
+  border: 2px solid #1b75bc;
+}
+
+.take-test_btn {
+  background-color: #1b75bc !important;
+  color: #ffffff !important;
+  border: 2px solid #1b75bc;
+}
+
+.dashboard-page .take-test_btn i {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.take-test_btn i {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.dashboard-page .upcoming-meeting-bg {
+  background: #e5eff7;
+}
+
+.dashboard-page .take-test_btn::before {
+  background-color: #43425d !important;
+  color: #ffffff !important;
+}
+
+.dashboard-page .take-test_btn::after {
+  background-color: #43425d !important;
+  color: #ffffff !important;
+}
+
+.dashboard-page .grey-img-assessment {
+  margin: 0;
+  max-height: 259px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.dashboard-page .threesixty__logo {
+  width: 98px;
+  margin: auto;
+}
+
+.dashboard-page .send-msg-btn {
+  background-color: #ffffff !important;
+  color: #1b75bc !important;
+  border: 2px solid #1b75bc !important;
+}
+
+.dashboard-page .learn-more_link {
+  color: #69d2c9;
+  background: transparent;
+  text-decoration: underline;
+}
+
+.dashboard-page .learn-more_link:hover {
+  color: #69d2c9 !important;
+  background-color: transparent !important;
+}
+
+.dashboard-page .user-active {
+  height: 18px;
+  border: 2px solid #ffffff;
+  width: 18px;
+  background-color: #7fb440;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  right: 60px;
+  top: 0px;
+}
+
+.dashboard-page .grey-heading {
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 14px !important;
+  margin-top: 5px !important;
+}
+
+.dashboard-page .h-fix {
+  height: 425px;
+  overflow: auto;
+}
+
+.dashboard-page .light-bg {
+  background: #cce0f0;
+}
+
+.dashboard-page .outline-input {
+  margin: 0 0 0 10px;
+  border: none !important;
+  border-bottom: 1px solid #c8c5c5 !important;
+}
+
+.dashboard-page .outline-input:focus-visible {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media screen and (max-width:600px) {
+  .main-content {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+}
+
+.main-content {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+
+.enable-take-test {
+  background: transparent;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.enable-take-test p {
+  font-size: 16px;
+}
+
+.enable-take-test-sec {
+  background: transparent;
+  padding: 9px;
+  border-radius: 20px;
+}
+
+.enable-take-test-sec p {
+  font-size: 16px;
+}
+
+.dashboard-page-small {
+  margin-left: 50px !important;
+  padding-top: 88px;
+  height: calc(100vh - 0px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.admin-txt {
+  color: #1b75bc !important;
+  cursor: pointer;
+}
+
+/* .game__dashboard_box-container:hover i {
+  opacity: 1;
+  cursor: pointer;
+} */
+
+/* .game__dashboard_box-container img {
+  border-radius: 8px;
+  -webkit-box-shadow: #1b75bc 0px 5px 15px;
+          box-shadow: #1b75bc 0px 5px 15px;
+} */
+
+/* .game__dashboard_box-container i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  right: 50%;
+  color: #000000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ecbd1b), to(#bea628)) !important;
+  background: linear-gradient(#ecbd1b, #bea628) !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 30px 0;
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  cursor: unset;
+} */
+/*# sourceMappingURL=dashboard.css.map */

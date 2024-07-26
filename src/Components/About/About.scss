@@ -1,0 +1,196 @@
+@import "../../Core/Style/Variables.scss";
+.about-page{
+    .home-header{
+        background: $color__fill-white;
+    }
+    p{
+        font-size: 1.5rem !important;
+    }
+    
+    .bg-white{
+        background: $color__fill-white;
+    }
+    .txt-center{
+        text-align: center;
+    }
+    .txt-center-justify{
+        display: flex;
+        justify-content: center;
+    }
+    .home-main{
+        background: #f5f8fe;
+    }
+    .vt-center{
+        align-self: center;
+    }
+    .discover-sec{
+        background: #f5f8fe;
+        padding: 30px 0;
+        .discover-txt{
+            font-size: 3rem !important;
+        font-weight: bold;
+        }
+        button{
+            margin-top: 30px !important;
+        }
+    }
+    .personality-main-sec{
+        padding: 100px 0;
+        background: $color__fill-white;
+    }
+    .how-it-work-main-sec{
+        padding: 60px 0;
+        background: #202a31;
+        color: $color__fill-white;
+        p{
+            color: $color__fill-white !important;
+        }
+        h1{
+            color: $color__fill-white !important;
+            margin-bottom: 30px !important;
+        }
+        button{
+            background: $primary_color !important;
+            color: $color__fill-white !important;
+            margin-top: 40px !important;
+        }
+    }
+    .why-choose-main{
+        background: $color__fill-white;
+        padding: 100px 0;
+        h3{
+            font-size: 2rem !important;
+            margin-bottom: 10px !important;
+            font-weight: 600;
+            color: $tertiary_color !important;
+        }
+        .h-fix-heading{
+            min-height: 5rem;
+        }
+        p{
+            color: #728081 !important;
+            font-size: 1.1rem !important;
+        }
+        .long-h-fix{
+            min-height: 10rem;
+        }
+    }
+    .why-choose-censio{
+        padding: 100px 0;
+        .why-choose-img{
+            margin-top: -100px;
+        }
+        .checkmark-bottom{
+            margin-top: 60px;
+        }
+        i.check.square.outline.icon{
+            font-size: 21px;
+        }
+        background-color: $color__fill-white;
+        padding-top: 100px;
+        padding-left: 210px;
+        padding-bottom: 80px;
+        p{
+            color: #212121bf;
+            width: 60%;
+            font-size: 15px;
+        }
+        .why-choose-heading{
+            margin-bottom: 45px;
+            font-size: 4rem !important;
+        }
+        h3{
+            font-size: 2rem !important;
+            margin-bottom: 10px !important;
+            font-weight: 600;
+        }
+    }
+    .objective-inside{
+        color: #212121bf;
+    }
+    .potencial-landing{
+        height: 100%;
+        position: relative;
+        .potencial-content{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            span{
+                border-bottom: 2px solid;
+            }
+            p{
+                font-size: 15px;
+            }
+            .take-assement{
+                background-color: $primary_color;
+                color: $color__fill-white;
+            }
+        }
+    }
+    
+    .text-light{
+        color: $color__fill-black;
+        font-size: 1.2rem !important;
+    }
+    .pd-right-none{
+        padding-right: 0px !important;
+    }
+    .w-100{
+        width: 100%;
+    }
+   
+    .bdr-left{
+        border-left: 1px solid #f1f1f1;
+        padding-left: 18px;
+    }
+    .about-censio{
+        padding: 5rem 0;
+        h1{
+            color: $tertiary_color !important;
+            font-size: 56px !important;
+            line-height: 66px !important;
+            font-weight: 700 !important;
+        }
+        .step-dot-img{
+            justify-content: center;
+            display: flex;
+            margin: 3rem 0 0 0;
+        }
+    }
+    
+    .beyond-assesment{
+        margin-left: 210px;
+        margin-top: 100px;
+        h3.ui.header{
+            margin-bottom: 5px;
+        }
+        .start-bottom{
+            margin-top: 60px;
+        }
+        .start-icon{
+            font-size: 20px !important;
+            background: $color__fill-white;
+            padding: 5px !important;
+            width: 36px;
+            height: 36px;
+            margin: 0;
+            border-radius: 50px;
+        }
+        p{
+            margin-left: 50px;
+            font-size: 15px;
+            width: 60%;
+        }
+        .beyond-heading{
+            color: $primary_color;
+            margin-bottom: 45px;
+        }
+    }
+    .mission-sec{
+        padding: 100px 0;
+        h1{
+            font-size: 3.3rem !important;
+        }
+        
+    }
+}

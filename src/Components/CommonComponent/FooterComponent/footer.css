@@ -1,0 +1,161 @@
+/*$profile__form-border: #e0e1eb;*/
+.footer-inner-section {
+  padding-left: 230px !important;
+}
+
+.footer-section {
+  margin-top: 2px;
+  position: fixed;
+  bottom: -10px;
+  width: 100%;
+  background: #ffffff;
+  padding: 16px 0;
+}
+
+.footer-section .menu-footer .item {
+  font-size: 16px !important;
+  cursor: pointer;
+  padding-right: 0 !important;
+  color: #646d9c !important;
+}
+
+.footer-section .menu-footer .item .header {
+  color: #646d9c !important;
+  font-weight: 500 !important;
+  margin: 0 10px !important;
+}
+
+.footer-section .fb-img {
+  -webkit-box-shadow: 0 6px 7px 0 #1574ef36;
+          box-shadow: 0 6px 7px 0 #1574ef36;
+  border-radius: 100%;
+}
+
+.footer-section .twitter-img {
+  -webkit-box-shadow: 0 6px 7px 0 #1bbaff45;
+          box-shadow: 0 6px 7px 0 #1bbaff45;
+  border-radius: 100%;
+}
+
+.footer-section .insta-img {
+  -webkit-box-shadow: 0 6px 7px 0 #fb0f5a24;
+          box-shadow: 0 6px 7px 0 #fb0f5a24;
+  border-radius: 100%;
+}
+
+.footer-section .linkedin-img {
+  -webkit-box-shadow: 0 6px 7px 0 #157ee757;
+          box-shadow: 0 6px 7px 0 #157ee757;
+  border-radius: 100%;
+}
+
+.footer-section .youtube-img {
+  -webkit-box-shadow: 0 6px 7px 0 #ff000036;
+          box-shadow: 0 6px 7px 0 #ff000036;
+  border-radius: 100%;
+}
+
+.footer-section .whatsapp-img {
+  -webkit-box-shadow: 0 6px 7px 0 #54e44729;
+          box-shadow: 0 6px 7px 0 #54e44729;
+  border-radius: 100%;
+}
+
+.footer-section .content-center {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.footer-section .social-list .item {
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.footer-section .social-list i {
+  font-size: 22px !important;
+}
+
+.home-footer {
+  background: #ffffff;
+  padding: 16px 0;
+  width: 100%;
+  margin-top: 2px;
+  -webkit-box-shadow: 0 -16px 20px -22px #4b66ab33;
+          box-shadow: 0 -16px 20px -22px #4b66ab33;
+}
+
+.home-footer .menu-footer .item {
+  font-size: 16px !important;
+  cursor: pointer;
+  padding-right: 0 !important;
+  color: #646d9c !important;
+}
+
+.home-footer .menu-footer .item .header {
+  color: #646d9c !important;
+  font-weight: 500 !important;
+  margin: 0 10px !important;
+}
+
+.home-footer .fb-img {
+  -webkit-box-shadow: 0 6px 7px 0 #1574ef36;
+          box-shadow: 0 6px 7px 0 #1574ef36;
+  border-radius: 100%;
+}
+
+.home-footer .twitter-img {
+  -webkit-box-shadow: 0 6px 7px 0 #1bbaff45;
+          box-shadow: 0 6px 7px 0 #1bbaff45;
+  border-radius: 100%;
+}
+
+.home-footer .insta-img {
+  -webkit-box-shadow: 0 6px 7px 0 #fb0f5a24;
+          box-shadow: 0 6px 7px 0 #fb0f5a24;
+  border-radius: 100%;
+}
+
+.home-footer .linkedin-img {
+  -webkit-box-shadow: 0 6px 7px 0 #157ee757;
+          box-shadow: 0 6px 7px 0 #157ee757;
+  border-radius: 100%;
+}
+
+.home-footer .youtube-img {
+  -webkit-box-shadow: 0 6px 7px 0 #ff000036;
+          box-shadow: 0 6px 7px 0 #ff000036;
+  border-radius: 100%;
+}
+
+.home-footer .whatsapp-img {
+  -webkit-box-shadow: 0 6px 7px 0 #54e44729;
+          box-shadow: 0 6px 7px 0 #54e44729;
+  border-radius: 100%;
+}
+
+.home-footer .content-center {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.home-footer .social-list .item {
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.home-footer .social-list i {
+  font-size: 22px !important;
+}
+
+.home-footer .footer-social-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  margin-left: 60px;
+}
+/*# sourceMappingURL=footer.css.map */

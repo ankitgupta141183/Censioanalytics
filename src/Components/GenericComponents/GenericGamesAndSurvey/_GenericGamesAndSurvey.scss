@@ -1,0 +1,177 @@
+@import "../../../Core/Style/Variables";
+
+
+.talwind-dashboard {
+    font-family: Rubik, sans-serif !important;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
+        font-family: Rubik, sans-serif !important;
+        margin: 0;
+    }
+
+    .games-images {
+        border-radius: 8px;
+        box-shadow: #1b75bc 0px 5px 15px;
+    }
+
+    .position-relative{
+        position: relative;
+    }
+
+    .playbutton{
+        position: absolute;
+    top: 43%;
+    left: 50%;
+    font-size: 50px;
+    right: 50%;
+    color: #000;
+    background: linear-gradient(#ecbd1b,#bea628)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 30px 0;
+    border-radius: 100%;
+    opacity: 1;
+    transition: opacity .5s linear;
+    cursor: pointer;
+    }
+}
+
+.game__dashboard_box-container {
+    img {
+        border-radius: 8px;
+        box-shadow: #1b75bc 0px 5px 15px;
+    }
+}
+
+
+
+.games-survey {
+    background: #F7FAFF;
+    // border-radius: 4px;
+    // padding: 22px;
+    // box-shadow: 3px 2px 4px #f1f1f1;
+    // padding-top: 139px;
+    // margin-left: 225px;
+    // height: 100vh;
+    // overflow-y: auto;
+    // overflow-x: hidden;
+
+    .assessment-test_inner {
+        border-radius: 4px;
+        padding: 0 15px;
+        margin: 0 40px;
+
+        .test_heading {
+            color: #000;
+            font-weight: 600;
+            margin-bottom: 14px !important;
+            margin-top: 5px !important;
+        }
+
+        .shadow_box {
+
+            box-shadow: 3px 2px 4px #f1f1f1;
+        }
+
+        .game__dashboard_box-container {
+            text-align: center;
+            // &:hover {
+            //   i {
+            //     opacity: 1;
+            //     cursor: pointer;
+            //   }
+            // }
+
+            img {
+                border-radius: 8px;
+                box-shadow: #1b75bc 0px 5px 15px;
+            }
+             
+
+            .playbutton {
+                position: absolute;
+                top: 43%;
+                left: 50%;
+                font-size: 50px;
+                right: 50%;
+                color: $color__fill-black;
+                background: linear-gradient(#ecbd1b, #bea628) !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: translate(-50%, -50%);
+                padding: 30px 0;
+                border-radius: 100%;
+                opacity: 1;
+                transition: opacity 0.5s linear;
+                cursor: pointer;
+            }
+        }
+        
+        .threesixty__logo{
+            width: 98px;
+            margin: auto;
+        }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            color: #4c4c4c;
+        //     margin: 0;
+        }
+        h2{
+            margin-top: 0;
+        }
+    }
+
+    .active__game-tab {
+        background-color: transparent !important;
+        border-radius: 0px;
+        border-radius: 0px;
+        color: #1b75bc !important;
+        border-bottom: 2px solid;
+        margin-bottom: -2px;
+        font-size: 18px;
+    }
+
+    .inactive__game-tab {
+        background-color: transparent !important;
+        border-radius: 0px;
+        color: #aaaeb1 !important;
+        font-size: 18px;
+    }
+
+    .game__tab-row {
+        margin: 0 0 20px 0;
+        border-bottom: 2px solid #ebebeb;
+        display: flex;
+    }
+
+   
+}
+
+.btn-cursor-pointer{
+    cursor: pointer !important;
+}
+.video_view-link {
+    // float: right;
+    margin: 4px 0 18px 0;
+    color: #1b75bc;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 3;
+}
+
+.finished-game{
+    background-color: #ffffff !important;
+    border: 2px solid #69d2c9 !important;
+    color: #69d2c9 !important;
+}

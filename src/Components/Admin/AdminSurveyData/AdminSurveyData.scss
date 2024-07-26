@@ -1,0 +1,74 @@
+.Recent_hearder {
+    margin-left: 225px !important;
+    padding-top: 133px;
+    height: calc(100vh - 20px);
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    h1 {
+        min-height: 1rem;
+        font-size: 2rem;
+    }
+
+    .p-3 {
+        padding: 25px;
+    }
+
+    .header-tabs {
+        .DateInput {
+            padding: 6px !important;
+        }
+        margin-top: 5px;
+    }
+
+    .vt-center {
+        align-items: center;
+    }
+
+    .download-button {
+        .Csv-button {
+            margin: 0 !important;
+        }
+    }
+
+    .justify-end {
+        justify-content: end;
+    }
+
+    .justify-between {
+        justify-content: space-between;
+    }
+
+    .download {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    // .table-container {
+    //     margin-top: 13px;
+    // }
+
+    select {
+        background-color: #fff;
+        border-radius: 0.28571429rem;
+        box-shadow: 0 0 0 0 transparent inset;
+        border: 1px solid #e6ebef;
+    }
+
+    input {
+        font-family: sans-serif;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #555;
+        outline: none;
+    }
+    .input-style:focus {
+        border-color:#5782b1;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      }
+}

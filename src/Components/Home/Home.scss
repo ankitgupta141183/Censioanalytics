@@ -1,0 +1,793 @@
+@import "../../Core/Style/Variables";
+
+.home-page {
+
+    .today-sec {
+        background: url('../../assets/img/today-bg.svg');
+        text-align: center;
+        padding: 18% 0 7% 0;
+        background-size: cover;
+        position: relative;
+
+        button {
+            // background: $primary_color !important;
+            // color: $color__fill-white !important;
+            // margin-top: 20px !important;
+            background: #000 !important;
+            color: #ffffff !important;
+            margin-top: 20px !important;
+            font-size: 20px;
+         
+        }
+
+        .today-dot-img {
+            position: absolute;
+            top: 16%;
+            right: 20%;
+        }
+
+        p {
+            font-size: 1.5rem !important;
+        }
+
+        .discover-heading {
+            font-size: 1.71428571rem !important;
+        }
+   
+    }
+
+    .pr-color {
+        color: $primary_color;
+    }
+
+    h1.ui.header {
+        color: $tertiary_color !important;
+        font-size: 55px !important;
+        line-height: 60px;
+        font-weight: 800 !important;
+        @media screen and (max-width: 1300px) {
+            font-size: 44px !important;
+            line-height: 1.1 !important;
+        }
+        @media screen and (max-width: 1200px) {
+            font-size: 30px !important;
+            line-height: 1.1 !important;
+        }
+        @media screen and (max-width: 992px) {
+            font-size: 20px !important;
+            line-height: 1.1 !important;
+        }
+        @media screen and (max-width: $md) {
+            font-size: 20px !important;
+            line-height: 1.1 !important;
+        }
+        
+        
+        
+    }
+
+    p {
+        font-size: 1.3rem !important;
+    }
+
+    .clr-heading {
+        color: $color__fill-secondary !important;
+        font-size: 1.8rem !important;
+    }
+
+    .bg-white {
+        background: $color__fill-white;
+    }
+
+    .txt-center {
+        text-align: center;
+    }
+
+    .txt-center-justify {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-main-new {
+        background: $color__fill-white;
+    }
+
+    .vt-center {
+        align-self: center;
+    }
+
+    .discover-sec {
+        background: $color__fill-grey;
+        padding: 30px 0;
+
+        .discover-txt {
+            font-size: 3rem !important;
+            font-weight: bold;
+        }
+
+        button {
+            margin-top: 30px !important;
+        }
+    }
+
+    .personality-main-sec {
+        padding: 100px 0;
+        background: $color__fill-white;
+    }
+
+    .how-it-work-main-sec {
+        padding: 60px 0;
+        background: #202a31;
+        color: $color__fill-white;
+
+        p {
+            color: $color__fill-white !important;
+        }
+
+        h1 {
+            color: $color__fill-white !important;
+            margin-bottom: 30px !important;
+        }
+
+        button {
+            background: $primary_color !important;
+            color: $color__fill-white !important;
+            margin-top: 40px !important;
+        }
+    }
+
+    .different-sec {
+        background: $color__fill-white !important;
+        padding: 100px 0;
+        margin-bottom: 13rem;
+
+        .horizontal-space {
+            font-size: 1.2rem !important;
+            color: #000 !important;
+        }
+
+        .h-fix-heading {
+            min-height: 4rem !important;
+        }
+
+        p {
+            color: #728081 !important;
+            margin: 0;
+            font-size: 1.2rem !important;
+        }
+
+        h2 {
+            font-size: 1.5rem !important;
+        }
+
+        .different-sec_img {
+            max-height: 330px;
+            width: 100%;
+            min-height: 330px;
+            object-fit: contain;
+        }
+    }
+
+    .objective-inside {
+        color: #212121bf;
+    }
+
+    .potencial-landing {
+        height: 100%;
+        position: relative;
+
+        .potencial-content {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            span {
+                border-bottom: 2px solid;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            .take-assement {
+                background-color: $primary_color;
+                color: $color__fill-white;
+            }
+        }
+    }
+    .home-mobile-image{
+        
+        display: none;
+        width: 100%;
+        @media screen and (max-width: $md){
+          
+            display: block;
+
+        }
+        @media screen and (max-width: $sm) {
+            
+            display: block;
+
+        }
+       
+    }
+
+    .home-top-section {
+        background: url('../../assets/img/Censio_Main_Illustrations_5.gif');
+        background-color: #f5f8fe;
+        background-repeat: no-repeat;
+        background-size: 96% 113%;
+        padding: 42px 0 239px 0;
+        @media screen and (max-width: $md){
+            background: none;
+        }
+        @media screen and (max-width: 1300px){
+            padding: 42px 0 50px 0;
+        }
+
+        p {
+            font-size: 1.3rem !important;
+            // color: $tertiary_color  !important;
+            // font-weight: 400 !important;
+            color: #000;
+        }
+
+        .btn-primary {
+            // background: $primary_color  !important;
+            // color: $color__fill-white;
+            // background:  #69D2C8 !important;
+            background: #64B6B0 !important;
+            color: #ffffff;
+            font-size: 21px;
+            @media screen and (max-width: $md){
+                font-size: 16px;
+            }
+
+            a{
+                color: #ffffff;
+            }
+
+        }
+
+        .yourself-better-section img {
+            width: 100%;
+
+            video {
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+
+        .top-inner-sec {
+            margin: 6rem 0;
+            @media screen and (max-width: 991px) {
+                margin: 3rem 0;
+                width: 60%;
+            }
+            @media screen and (max-width: $md) {
+                margin: 3rem 0;
+                width: 100%;
+            }
+            @media screen and (max-width: $sm) {
+                width: 100%;
+            }
+        }
+    }
+
+    .top_video {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .text-light {
+        color: #000;
+        font-size: 1.2rem !important;
+    }
+
+    .pd-right-none {
+        padding-right: 0px !important;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .bottom-space {
+        margin-bottom: 0.1rem !important;
+    }
+
+    .text-heading {
+        font-size: 1.2rem !important;
+        margin-bottom: 10px !important;
+        // font-weight: 800;
+        // color: $tertiary_color  !important;
+        color: #000 !important;
+    }
+
+    .bdr-left {
+        border-left: 1px solid #f1f1f1;
+        padding-left: 18px;
+    }
+
+    .about-censio {
+        padding: 5rem 0;
+
+        .Second-section-heading {
+            font-size: 2.5rem;
+        }
+
+        .clr-heading.Second-section-sub-heading {
+            font-size: 1.6rem !important;
+        }
+
+        h1 {
+            color: $tertiary_color !important;
+            font-size: 56px !important;
+            line-height: 66px !important;
+            font-weight: 700 !important;
+        }
+
+        .clr-heading {
+            color: $color__fill-secondary;
+            font-size: 1.8rem !important;
+        }
+
+        .step-dot-img {
+            justify-content: center;
+            display: flex;
+            margin: 3rem 0 0 0;
+        }
+
+        .active-step {
+            border-left: 4px solid $primary_color;
+            padding-left: 15px;
+        }
+
+        .client-profile {
+            color: #728081 !important;
+            font-size: 1.5rem !important;
+
+            p {
+                margin: 0 !important;
+                font-size: 1.5rem !important;
+            }
+        }
+
+        .client-name {
+            font-weight: bold !important;
+        }
+
+        .s-color {
+            color: $color__fill-secondary;
+        }
+
+    }
+
+    .beyond-assesment {
+        margin-left: 210px;
+        margin-top: 100px;
+
+        h3.ui.header {
+            margin-bottom: 5px;
+        }
+
+        .start-bottom {
+            margin-top: 60px;
+        }
+
+        .start-icon {
+            font-size: 20px !important;
+            background: $color__fill-white;
+            padding: 5px !important;
+            width: 36px;
+            height: 36px;
+            margin: 0;
+            border-radius: 50px;
+        }
+
+        p {
+            margin-left: 50px;
+            font-size: 15px;
+            width: 60%;
+        }
+
+        .beyond-heading {
+            color: $primary_color;
+            margin-bottom: 45px;
+        }
+    }
+
+    .mission-sec {
+        padding: 100px 0;
+        margin-bottom: -2rem !important;
+
+        h1 {
+            font-size: 3.3rem !important;
+        }
+
+        h2 {
+            color: #1f3d40 !important;
+            font-size: 40px;
+            line-height: 60px;
+            font-weight: 800 !important;
+        }
+
+        .our-mission-desc {
+            font-size: 1.5rem !important;
+            color: #000 !important;
+        }
+
+        .row{
+            @media screen and (max-width: $md){
+                flex-direction: column-reverse;
+            }
+        }
+
+        .mg-negative {
+            margin-top: -17rem;
+            @media screen and (max-width: $md){
+                margin-top: 0rem;
+            }
+        }
+    }
+
+    .step-slider-bg {
+        background-image: url('../../assets/img/slide-bg-new.png');
+        padding: 20% 0 17% 0;
+        background-color: $color__fill-white !important;
+        background-size: 100% 100%;
+
+        img {
+            box-shadow: 0px 1px 10px $slider__outer-shadow;
+            border-radius: 20px !important;
+        }
+
+        .control-dots {
+            display: none;
+        }
+
+        .carousel.carousel-slider .control-arrow {
+            background: $color__fill-secondary !important;
+            height: 41px !important;
+            border-radius: 100% !important;
+            padding: 0 11px !important;
+            position: absolute !important;
+            top: 52% !important;
+        }
+
+        .image-slide img {
+            height: 340px !important;
+            border-radius: 20px !important;
+            box-shadow: none !important;
+            border: 2px solid #f3f3f3;
+        }
+    }
+
+    .carousel .control-dots .dot {
+        background: $color__fill-secondary !important;
+    }
+
+    .carousel.carousel-slider .control-arrow {
+        background: $color__fill-secondary !important;
+        height: 41px !important;
+        border-radius: 100% !important;
+        padding: 0 11px !important;
+        position: absolute !important;
+        top: 67% !important;
+    }
+
+    .carousel .control-arrow,
+    .carousel.carousel-slider .control-arrow {
+        opacity: 1 !important;
+    }
+
+    .testimonial-img {
+        width: 295px;
+    }
+
+    .testimonial-main {
+        .testimonial-img {
+            width: 295px !important;
+        }
+
+        .image-slide img {
+            width: 185px !important;
+            height: 230px !important;
+            padding: 15px;
+            border: 1px solid $color__fill-secondary !important;
+            border-radius: 100%;
+            margin-bottom: 30px;
+        }
+
+        .control-dots {
+            position: absolute !important;
+            bottom: -14px !important;
+        }
+    }
+
+    .top-video-section {
+        padding: 100px 0;
+    }
+
+    .admission-experts {
+        padding: 100px 0;
+        background: $color__fill-white;
+
+        .bottom-space {
+            margin-bottom: 0.1rem !important;
+        }
+
+        .active-step {
+            border-left: 4px solid $primary_color;
+            padding-left: 15px;
+        }
+    }
+
+    .set-right-img {
+        width: 70%;
+        position: absolute;
+        margin-left: 11rem;
+    }
+
+    .educators {
+        padding: 100px 0;
+        background-color: $color__fill-white;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 45% 69%;
+
+        .bottom-space {
+            margin-bottom: 0.1rem !important;
+        }
+
+        .active-step {
+            border-left: 4px solid $primary_color;
+            padding-left: 15px;
+        }
+
+        .m-small {
+            margin-bottom: 8px;
+        }
+
+        .step-dot-img {
+            margin: 3rem 0 0 0;
+        }
+
+        .experts-list {
+            margin: 0 0 1em;
+            line-height: 1.2em;
+        }
+
+        .experts-list li {
+            margin-bottom: 8px;
+        }
+
+        .disactive-step {
+            padding-left: 15px;
+
+            li {
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    .science-sec {
+        padding: 100px 0;
+        background-color: $color__fill-white;
+        background-position: right;
+        background-size: 45% 69%;
+        background-repeat: no-repeat;
+
+        i {
+            font-size: 10px;
+        }
+
+        .content {
+            line-height: 1.6rem !important;
+        }
+
+        .active-step {
+            padding-left: 15px;
+            border-left: 4px solid $primary_color;
+        }
+    }
+
+    .whom-sec-img {
+        width: 66%;
+    }
+
+    .bottom-shade {
+        background-color: #E4FCFA;
+    }
+
+    .carousel .slide img {
+        height: 100% !important;
+    }
+}
+
+.profile-popup-img {
+    // height: 140px;
+    // width: 140px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.profile-popup {
+    position: absolute !important;
+    right: 0;
+    top: 71%;
+    z-index: 110;
+    height: calc(100vh - 160px);
+    background: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block !important;
+    min-width: 585px !important;
+
+    @media screen and (max-width: $tablet){
+        min-width: 400px !important;
+    }
+
+    @media screen and (max-width: $sm){
+        min-width: 300px !important;
+    }
+
+    @media screen and (max-width: 300px){
+        min-width: 300px !important;
+        margin-right: 0 !important;
+    }
+
+    .header {
+        padding: 0 !important;
+    }
+
+    .main-content {
+        margin: 0px;
+        padding: 0 8px;
+    }
+
+    .actions {
+        padding: 0 !important;
+    }
+
+    .edit-button {
+        font-size: 12px;
+        background: transparent;
+        padding: 0 1px;
+        color: #1b75bc;
+        text-decoration: underline;
+    }
+
+    .edit-button:hover {
+        background: transparent;
+        color: $primary_color;
+    }
+}
+
+.home_video_sec {
+    text-align: center;
+    padding: 100px 0;
+
+    .row {
+        align-items: center !important;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 2.5rem !important;
+        color: #1f3d40 !important;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    iframe {
+        border-radius: 10px;
+        border: none;
+        display: block;
+        width: 73%;
+        min-height: 400px !important;
+        margin: auto;
+
+        body:-webkit-full-page-media {
+            background-color: #e4fcfa !important;
+        }
+    }
+
+    .home_video-container {
+        width: 100%;
+        position: relative;
+        margin: auto;
+        margin-bottom: 10px;
+        .Image_container {
+            position: relative;
+            max-width: 100%;
+            height: 0;
+            overflow: hidden;
+            /* background: #dcddde; */
+            padding-bottom: 56.25%;
+        }
+
+        // &:hover{
+        //     .home_video-playbutton{
+        //         opacity: 1;
+        //         cursor: pointer;
+        //     }
+        // }
+        video::-webkit-media-controls-fullscreen-button {
+            display: none;
+        }
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .home_video-playbutton {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 50px;
+        right: 50%;
+        color: #000000;
+        background: linear-gradient(#ecbd1b, #bea628) !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-50%, -50%);
+        padding: 30px 0;
+        border-radius: 50%;
+        opacity: 1;
+        transition: opacity 0.5s linear;
+        cursor: pointer;
+    }
+}
+
+.profile-popup-close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto !important;
+    padding: 0;
+    background: transparent !important;
+}
+
+.today-sec {
+    h1.ui.header {
+        font-size: 40px !important;
+        @media screen and (max-width: $md){
+            font-size: 20px !important;
+            margin-bottom: 20px;
+            margin-top: 45px;
+        }
+    }
+    .footer-censio-logo-form{
+        img{
+            width: 240px;
+        }
+    }
+    .form-gap{
+        margin: 4rem auto 0rem auto !important; 
+        // margin-top: 3rem !important; 
+        padding-left: 2rem !important;
+        @media screen and (max-width: $md){
+            padding-left: 0rem !important;
+        }
+      
+    }
+  
+}
+
+.text-left{
+    text-align: left;
+    padding-top: 6rem !important;
+}
+

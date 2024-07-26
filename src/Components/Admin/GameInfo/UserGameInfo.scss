@@ -1,0 +1,114 @@
+.userGame-inner {
+    margin-left: 225px !important;
+    padding-top: 133px;
+    height: calc(100vh - 20px);
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .Admin_Table {
+        box-shadow: 0px 2px 3px #72838e;
+    }
+    .geme-data-noFound{
+        width: 100%;
+        text-align: center;
+    }
+    .Admin_Table a {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .Admin_Table tbody tr:hover {
+        background-color: #d1e1f8;
+        border-bottom: 3px solid #91c1ff !important;
+        border-top: 3px solid #91c1ff !important;
+    }
+
+    .Admin_Table tbody tr {
+        padding: 10px;
+        border-bottom: 2px solid rgb(230, 235, 239);
+        height: 33px;
+        color: rgb(114, 131, 142);
+        font-size: 15px;
+        font-weight: 600;
+        padding-left: 90px;
+    }
+
+    .Admin_Table td {
+        padding: 2px 16px;
+        text-align: left;
+        border-bottom: 1px solid #ebe4e4;
+        word-break: break-word;
+        font-size: 13px;
+    }
+
+    thead th{
+        width: auto !important;
+    }
+
+    // thead th:nth-child(1) {
+    //     width: 4%;
+    // }
+
+    // thead th:nth-child(3) {
+    //     width: 8%;
+    // }
+
+    // thead th:nth-child(4) {
+    //     width: 8%;
+    // }
+
+    // thead th:nth-child(5) {
+    //     width: 8%;
+    // }
+
+    .Admin_Table th {
+        padding: 8px 16px;
+        text-align: left;
+        border-bottom: 2px solid #e6ebef;
+        // word-break: break-word;
+        text-align: left;
+        font-size: 13px;
+        color: #72838e;
+        background: #f2f5f7;
+    }
+
+
+    .p-3 {
+        padding: 30px;
+    }
+    table{
+        width: 100%;
+        background: #f9f9f9;
+        border-radius: 5px;
+        border-collapse: collapse;
+    }
+    .game_select{
+        border-radius: 7px;
+        border: 2px solid #e6ebef !important;
+        padding: 8px 8px !important;
+        color: #8e8b8b;
+    }
+}
+.wordplay-table thead th:nth-child(1){
+    width: 10%;
+}
+.wordplay-table thead th:nth-child(2){
+    width: 10%;
+}
+.wordplay-table thead th:nth-child(3){
+    width: 10%;
+}
+.wordplay-table thead th:nth-child(4){
+    width: 10%;
+}
+.wordplay-table thead th:nth-child(5){
+    width: 10%;
+}
+.wordplay-table thead th:nth-child(6){
+    width: 10%;
+}
+.export-grey-btn {
+    padding: 10px 10px !important;
+    margin: 0 0 4px 0;
+    float: right;
+}

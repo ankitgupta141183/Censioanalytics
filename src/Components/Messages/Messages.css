@@ -1,0 +1,223 @@
+/*$profile__form-border: #e0e1eb;*/
+.schedule-meeting-btn {
+  background: #ffffff !important;
+  color: #43425d !important;
+  border: 2px solid !important;
+  width: 100% !important;
+}
+
+.message-page .msg-academic-adviosr-img {
+  width: 87%;
+}
+
+.message-page .msg-advisor-sec .academic-heading {
+  font-size: 18px;
+  color: #a9a4a4f1;
+}
+
+.txt-medium {
+  font-size: 18px;
+}
+
+.previous-advisor-sec {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 16px 40px;
+  max-height: 238px;
+  overflow: auto;
+}
+
+.previous-advisor-sec h2 {
+  font-size: 18px;
+}
+
+.previous-adviosr-img {
+  width: 70%;
+}
+
+.assesment-test_sec {
+  margin-bottom: 15px;
+}
+
+.message-activity_sec {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 15px 15px;
+}
+
+.message-activity_sec .ui.secondary.menu {
+  margin: 0;
+}
+
+.message-activity_sec .ui.secondary.menu {
+  margin-top: 0;
+}
+
+.message-activity_sec .ui.segment.active.tab {
+  margin-top: 0;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.message-activity_sec a.active.item {
+  font-size: 18px !important;
+  background: #f5f8fe !important;
+  font-weight: 600 !important;
+}
+
+.message-activity_sec a.item {
+  font-size: 18px !important;
+}
+
+.message-activity_sec .learning_program-sec {
+  padding: 6px 0;
+}
+
+.message-activity_sec .message-left-talk {
+  border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15px;
+  background: #cce0f0;
+  padding: 6px 9px;
+  min-width: 0;
+  max-width: 215px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.message-activity_sec .reply-sec {
+  direction: rtl;
+}
+
+.message-activity_sec .message-reply-talk {
+  border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 0px !important;
+  background: #1b75bc;
+  padding: 6px 9px;
+  min-width: 0;
+  max-width: 215px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #ffffff;
+  direction: ltr;
+}
+
+.message-activity_sec .reply-time {
+  float: right;
+}
+
+.message-activity_sec .doc-sec {
+  margin-bottom: 20px !important;
+}
+
+.message-activity_sec .message-inner-sec {
+  max-height: 569px;
+  overflow: auto;
+}
+
+.message-activity_sec .message-inner-sec-first {
+  max-height: 556px;
+  overflow: auto;
+}
+
+.message-activity_sec .attach-bg {
+  background: #f0f0f7;
+  padding: 10px 8px;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.message-activity_sec .attach, .message-activity_sec .send {
+  font-size: 17px;
+  margin-right: 0;
+}
+
+.message-activity_sec .send-bg {
+  background: #69d2c9;
+  padding: 10px 8px;
+  border-radius: 100%;
+  color: #ffffff;
+}
+
+.message-activity_sec .txt-right {
+  text-align: right;
+}
+
+.message-activity_sec .doc-plus-bg {
+  background: #69d2c9;
+  padding: 16px 16px;
+  border-radius: 100%;
+  position: relative;
+  color: #ffffff;
+  font-size: 38px;
+  margin: 0 20px 0 0;
+}
+
+.message-activity_sec .doc-plus-bg i.plus.icon {
+  margin-right: 0 !important;
+}
+
+.message-activity_sec .upload-file-area {
+  background: #f7f7f7;
+  border: 2px dashed #cbc6d8;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.message-activity_sec button.ui.purple.basic.button {
+  margin-left: 15px;
+}
+
+.message-activity_sec .align-vt-center {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.message-activity_sec .doc-img {
+  width: 40%;
+  display: initial !important;
+}
+
+.message-activity_sec .hr-center {
+  text-align: center !important;
+  padding: 19px 0 40px 0;
+}
+
+.message-activity_sec .doc-box {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 5px 6px;
+  margin: 0 15px 0 15px;
+}
+
+.message-activity_sec .doc-box button.ui.button {
+  font-size: 8px;
+}
+
+.message-activity_sec .doc-box i.ellipsis.vertical.icon {
+  float: right;
+  margin-right: 0;
+  color: #cccbcb;
+}
+
+.message-activity_sec .filter-left-space {
+  margin-left: 18px;
+}
+
+.message-activity_sec .justify-txt-center {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.message-activity_sec .doc-name-txt {
+  font-size: 16px !important;
+  margin: 7px 15px 0 15px;
+  color: #000000;
+}
+/*# sourceMappingURL=Messages.css.map */

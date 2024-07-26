@@ -1,0 +1,135 @@
+@import "../../../Core/Style/Variables.scss";
+
+.footer-inner-section{
+    padding-left: 230px !important;
+}
+.footer-section{
+    margin-top: 2px;
+    position: fixed;
+    bottom: -10px;
+    width: 100%;
+    background: $color__fill-white;
+    padding: 16px 0;
+    .menu-footer{
+        
+    .item{
+        font-size: 16px !important;
+        cursor: pointer;
+        padding-right: 0 !important;
+        color: #646d9c !important;
+        .header{
+            color: #646d9c !important;
+            font-weight: 500 !important;
+            margin: 0 10px !important;
+           }
+       }
+    }
+    .fb-img{
+        box-shadow: 0 6px 7px 0 #1574ef36;
+        border-radius: 100%;
+    }
+    .twitter-img{
+        box-shadow: 0 6px 7px 0 #1bbaff45;
+        border-radius: 100%;
+    }
+    .insta-img{
+        box-shadow: 0 6px 7px 0 #fb0f5a24;
+        border-radius: 100%;
+    }
+    .linkedin-img{
+        box-shadow: 0 6px 7px 0 #157ee757;
+        border-radius: 100%;
+    }
+    .youtube-img{
+        box-shadow: 0 6px 7px 0 #ff000036;
+        border-radius: 100%;
+    }
+    .whatsapp-img{
+        box-shadow: 0 6px 7px 0 #54e44729;
+        border-radius: 100%;
+    }
+       .content-center{
+           justify-content: center !important;
+       }
+    .social-list{
+        .item{
+            padding-right: 0 !important;
+            margin-left: 0 !important;
+        }
+        i{
+            font-size: 22px !important;
+        }
+        
+    }
+     
+}
+.home-footer{
+    background: $color__fill-white;
+    padding: 16px 0;
+    width: 100%;
+    margin-top: 2px;
+    box-shadow: 0 -16px 20px -22px #4b66ab33;
+    .text-sm-center{
+        @media screen and (max-width: $tablet){
+            text-align: center;
+        }
+    }
+    .menu-footer{
+        @media screen and (max-width: $tablet){
+            text-align: center;
+        }
+        .item{
+            font-size: 16px !important;
+            cursor: pointer;
+            padding-right: 0 !important;
+            color: $color__fill-menu !important;
+            .header{
+                color: $color__fill-menu !important;
+                font-weight: 500 !important;
+                margin: 0 10px !important;
+               }
+           }
+        }
+        .fb-img{
+            box-shadow: 0 6px 7px 0 #1574ef36;
+            border-radius: 100%;
+        }
+        .twitter-img{
+            box-shadow: 0 6px 7px 0 #1bbaff45;
+            border-radius: 100%;
+        }
+        .insta-img{
+            box-shadow: 0 6px 7px 0 #fb0f5a24;
+            border-radius: 100%;
+        }
+        .linkedin-img{
+            box-shadow: 0 6px 7px 0 #157ee757;
+            border-radius: 100%;
+        }
+        .youtube-img{
+            box-shadow: 0 6px 7px 0 #ff000036;
+            border-radius: 100%;
+        }
+        .whatsapp-img{
+            box-shadow: 0 6px 7px 0 #54e44729;
+            border-radius: 100%;
+        }
+           .content-center{
+               justify-content: center !important;
+           }
+        .social-list{
+            .item{
+                padding-right: 0 !important;
+                margin-left: 0 !important;
+            }
+            i{
+                font-size: 22px !important;
+            }
+            
+        }
+        .footer-social-container{
+            justify-content: center;
+            display: flex !important;
+            margin-left: 60px;
+        }
+}

@@ -1,0 +1,851 @@
+[
+    {
+        "category_id": 7,
+        "assessment_no":1,
+        "uuid": "8fe0755f-239d-4503-bf9d-e7576be6628b",
+        "category": "Section-2",
+        "description": "Please indicate how much you agree with the following statements as they apply to you over the last month. If a particular situation has not occurred recently, answer according to how you think you would have felt.",
+        "questions": [
+            {
+                "id": 1,    
+                "uuid": "b123a631-b857-4c6f-8897-597e9c679bd1",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I am able to adapt when changes occur.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not true at all (left)",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "Rarely true",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "Sometimes true",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Often true",
+                        "is_correct": true,
+                        "option_No":4
+                    },
+                    {
+                        "uuid": "75520324-5f6d-4fea-bf11-4601815fd8fb",
+                        "option_id": 1575,
+                        "label": "True nearly all the time (right)",
+                        "is_correct": true,
+                        "option_No":5
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "uuid": "c21df75a-66cd-4e40-b2b8-382fe7e8615f",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I can deal with whatever comes my way.",
+                "options": [
+                    {
+                        "uuid": "fbfe8e43-0f01-4480-85fd-4f45de91aac0",
+                        "option_id": 1576,
+                        "label": "Not true at all (left)",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "1eb7ec8a-864a-447f-8912-04bba1295f17",
+                        "option_id": 1577,
+                        "label": "Rarely true",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "ecd75018-9f28-4e40-a6f1-42dd123a9280",
+                        "option_id": 1578,
+                        "label": "Sometimes true",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "a9eab205-1638-471b-90f3-e7a85087b00e",
+                        "option_id": 1579,
+                        "label": "Often true",
+                        "is_correct": true,
+                        "option_No":4
+                    },
+                    {
+                        "uuid": "a962b918-a3a1-4b61-864c-89f42154b9f5",
+                        "option_id": 1580,
+                        "label": "True nearly all the time (right)",
+                        "is_correct": true,
+                        "option_No":5
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "uuid": "fb0eabdd-8f39-4f95-850a-2a0065a087f3",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I try to see the humorous side of things when I am faced with problems.",
+                "options": [
+                    {
+                        "uuid": "53019f9b-4d73-4eae-8c7d-2c5cdef11c9f",
+                        "option_id": 1581,
+                        "label": "Not true at all (left)",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "70ab8ec0-ebad-4afb-94c8-52f0c4ae110b",
+                        "option_id": 1582,
+                        "label": "Rarely true",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "30d4fb2e-1814-4d48-8976-2509b9d85608",
+                        "option_id": 1583,
+                        "label": "Sometimes true",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "37413fd6-87c1-4a17-83e5-b9b5efec04f6",
+                        "option_id": 1584,
+                        "label": "Often true",
+                        "is_correct": true,
+                        "option_No":4
+                    },
+                    {
+                        "uuid": "cf40f2c2-d0ee-46cb-89a9-be28a76d3cae",
+                        "option_id": 1585,
+                        "label": "True nearly all the time (right)",
+                        "is_correct": true,
+                        "option_No":5
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "uuid": "ebc0fc67-d388-46db-b08d-18628eaf876a",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "Having to cope with stress can make me stronger.",
+                "options": [
+                    {
+                        "uuid": "e378b8c1-873c-4c29-a8aa-00aaa498fef7",
+                        "option_id": 1586,
+                        "label": "Not true at all (left)",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "29b3b8d8-4c45-4e3e-a2da-25ae1dbfc3c5",
+                        "option_id": 1587,
+                        "label": "Rarely true",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "99b8a1d0-82ee-49a7-abde-3822d9950ab3",
+                        "option_id": 1588,
+                        "label": "Sometimes true",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "1c5344fa-5262-48a5-9e92-9b04921545a3",
+                        "option_id": 1589,
+                        "label": "Often true",
+                        "is_correct": true,
+                        "option_No":4
+                    },
+                    {
+                        "uuid": "912124b7-30ca-4131-bf7b-d91238373969",
+                        "option_id": 1590,
+                        "label": "True nearly all the time (right)",
+                        "is_correct": true,
+                        "option_No":5
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "uuid": "fcedb802-b820-46eb-8c55-248a9a1cdaa3",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I tend to bounce back after illness, injury, or other hardships.",
+                "options": [
+                    {
+                        "uuid": "7ed955b8-98f7-4c7b-bcc0-8878df6df35c",
+                        "option_id": 1591,
+                        "label": "Not true at all (left)",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "d9731987-76b1-43b8-9711-dbbc4dc91258",
+                        "option_id": 1592,
+                        "label": "Rarely true",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "4d49c177-3442-4540-9675-8f3abd60c2a1",
+                        "option_id": 1593,
+                        "label": "Sometimes true",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "fcd2a0e2-91e3-413a-86d4-69e8b9a33d0c",
+                        "option_id": 1594,
+                        "label": "Often true",
+                        "is_correct": true,
+                        "option_No":4
+                    },
+                    {
+                        "uuid": "9cf83a9a-b237-497c-875c-da3840cde714",
+                        "option_id": 1595,
+                        "label": "True nearly all the time (right)",
+                        "is_correct": true,
+                        "option_No":5
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "uuid": "81cee3ed-4ed9-422b-bf0f-0a4aa25514cd",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I believe I can achieve my goals, even if there are obstacles.",
+                "options": [
+                    {
+                        "uuid": "348178f1-13bf-4a86-9f11-52e57d064aa8",
+                        "option_id": 1596,
+                        "label": "Not true at all (left)",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "fac24bce-90ea-4476-b004-4d8e3012a7ef",
+                        "option_id": 1597,
+                        "label": "Rarely true",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "905a5fe0-0345-4706-8d30-c95449e3cfed",
+                        "option_id": 1598,
+                        "label": "Sometimes true",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "4213788c-33c3-427f-af32-748965d3bb85",
+                        "option_id": 1599,
+                        "label": "Often true",
+                        "is_correct": true,
+                        "option_No":4
+                    },
+                    {
+                        "uuid": "4eca243d-8ec3-436f-827d-8c42844e38fa",
+                        "option_id": 1600,
+                        "label": "True nearly all the time (right)",
+                        "is_correct": true,
+                        "option_No":5
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "uuid": "6dd13e7b-83c5-4cb4-ba53-68fcf263fdf2",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "Under pressure, I stay focused and think clearly.",
+                "options": [
+                    {
+                        "uuid": "e0768936-1238-41ef-95f5-8548412bf657",
+                        "option_id": 1601,
+                        "label": "Not true at all (left)",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "920c5fce-e8b7-4c55-82fc-3550756f60b7",
+                        "option_id": 1602,
+                        "label": "Rarely true",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "0c1ee597-b700-4a9a-a9fd-907fc567b40c",
+                        "option_id": 1603,
+                        "label": "Sometimes true",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "d67adfaf-1c23-427d-aef1-6067cece6ac0",
+                        "option_id": 1604,
+                        "label": "Often true",
+                        "is_correct": true,
+                        "option_No":4
+                    },
+                    {
+                        "uuid": "492fc7ab-948a-47b8-b5c2-8279d9ada347",
+                        "option_id": 1605,
+                        "label": "True nearly all the time (right)",
+                        "is_correct": true,
+                        "option_No":5
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "uuid": "00840c80-8cb9-4590-bc13-024bc5fb7020",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I am not easily discouraged by failure.",
+                "options": [
+                    {
+                        "uuid": "18cf0391-dc50-4240-9c91-78b2b5b8374c",
+                        "option_id": 1606,
+                        "label": "Not true at all (left)",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "816ccd2b-f6bb-4847-8182-5bd60366d631",
+                        "option_id": 1607,
+                        "label": "Rarely true",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "5c767a69-32fc-4136-bfa0-b73a28915e71",
+                        "option_id": 1608,
+                        "label": "Sometimes true",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "a90a4819-e529-4cd6-a4a7-9249cd11da65",
+                        "option_id": 1609,
+                        "label": "Often true",
+                        "is_correct": true,
+                        "option_No":4
+                    },
+                    {
+                        "uuid": "5359623f-ddc8-4a79-9915-c6ad46f052a1",
+                        "option_id": 1610,
+                        "label": "True nearly all the time (right)",
+                        "is_correct": true,
+                        "option_No":5
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "uuid": "3677444b-0c15-43ff-882c-a1fb9ed54cb9",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I think of myself as a strong person when dealing with life’s challenges and difficulties.",
+                "options": [
+                    {
+                        "uuid": "7b91ccef-bded-468e-aee0-5c33831a19f3",
+                        "option_id": 1611,
+                        "label": "Not true at all (left)",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "2380177b-d1bd-4b4e-9968-59427c583bf8",
+                        "option_id": 1612,
+                        "label": "Rarely true",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "246cdef4-2b74-4a52-8743-55fae2add821",
+                        "option_id": 1613,
+                        "label": "Sometimes true",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8d0cbd65-e8a6-443d-98a1-a9cd75793f07",
+                        "option_id": 1614,
+                        "label": "Often true",
+                        "is_correct": true,
+                        "option_No":4
+                    },
+                    {
+                        "uuid": "9a7ad837-1655-4a11-8461-a0d56fc67569",
+                        "option_id": 1615,
+                        "label": "True nearly all the time (right)",
+                        "is_correct": true,
+                        "option_No":5
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "uuid": "5d9abce5-1102-4b0d-b166-7c0d8ec561a7",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I am able to handle unpleasant or painful feelings like sadness, fear, and anger.",
+                "options": [
+                    {
+                        "uuid": "3de2ba13-0ec4-4d95-9bdd-495fb6578417",
+                        "option_id": 1616,
+                        "label": "Not true at all (left)",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "29a276a9-3c50-431e-85a2-0cb7707c35b3",
+                        "option_id": 1617,
+                        "label": "Rarely true",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "eeb6e1f5-114e-4531-8e93-1953d4699f56",
+                        "option_id": 1618,
+                        "label": "Sometimes true",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "6a4aadce-cb6c-454a-b833-32895d6bed00",
+                        "option_id": 1619,
+                        "label": "Often true",
+                        "is_correct": true,
+                        "option_No":4
+                    },
+                    {
+                        "uuid": "a2d3a200-9b5f-4606-b8fa-8b10c61e401e",
+                        "option_id": 1620,
+                        "label": "True nearly all the time (right)",
+                        "is_correct": true,
+                        "option_No":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category_id": 7,
+        "assessment_no":2,
+        "uuid": "8fe0755f-239d-4503-bf9d-e7576be6628b56",
+        "category": "Section-2",
+        "description": "On a scale of 1-4, where 1 is 'Not at all true of me' and 4 is 'very true of me, please rate your LEVEL OF AGREEMENT with the statements below. ",
+        "questions": [
+            {
+                "id": 1,    
+                "uuid": "b123a631-b857-4c6f-8897-597e9c679bd1",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I like situations, in which I can find out how capable I am.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not at all true of me",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Very true of me",
+                        "is_correct": true,
+                        "option_No":4
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "uuid": "c21df75a-66cd-4e40-b2b8-382fe7e8615f",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "When I am confronted with a problem, which I can possibly solve, I am enticed to start working on it immediately.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not at all true of me",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Very true of me",
+                        "is_correct": true,
+                        "option_No":4
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "uuid": "fb0eabdd-8f39-4f95-850a-2a0065a087f3",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label":"I enjoy situations, in which I can make use of my abilities.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not at all true of me",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Very true of me",
+                        "is_correct": true,
+                        "option_No":4
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "uuid": "ebc0fc67-d388-46db-b08d-18628eaf876a",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": " I am appealed by situations allowing me to test my abilities.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not at all true of me",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Very true of me",
+                        "is_correct": true,
+                        "option_No":4
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "uuid": "fcedb802-b820-46eb-8c55-248a9a1cdaa3",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I am attracted by tasks, in which I can test my abilities.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not at all true of me",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Very true of me",
+                        "is_correct": true,
+                        "option_No":4
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "uuid": "81cee3ed-4ed9-422b-bf0f-0a4aa25514cd",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I am afraid of failing in somewhat difficult situations, when a lot depends on me.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not at all true of me",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Very true of me",
+                        "is_correct": true,
+                        "option_No":4
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "uuid": "6dd13e7b-83c5-4cb4-ba53-68fcf263fdf2",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "I feel uneasy to do something if I am not sure of succeeding.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not at all true of me",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Very true of me",
+                        "is_correct": true,
+                        "option_No":4
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "uuid": "00840c80-8cb9-4590-bc13-024bc5fb7020",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "Even if nobody would notice my failure, I’m afraid of tasks, which I’m not able to solve.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not at all true of me",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Very true of me",
+                        "is_correct": true,
+                        "option_No":4
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "uuid": "3677444b-0c15-43ff-882c-a1fb9ed54cb9",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "Even if nobody is watching, I feel quite anxious in new situations.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not at all true of me",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Very true of me",
+                        "is_correct": true,
+                        "option_No":4
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "uuid": "5d9abce5-1102-4b0d-b166-7c0d8ec561a7",
+                "category_id": 7,
+                "type": "MCQ Question",
+                "valid_type": null,
+                "label": "If I do not understand a problem immediately I start feeling anxious.",
+                "options": [
+                    {
+                        "uuid": "80e90ec6-68bc-4ea1-bde5-e0b315324414",
+                        "option_id": 1571,
+                        "label": "Not at all true of me",
+                        "is_correct": true,
+                        "option_No":1
+                    },
+                    {
+                        "uuid": "48cf16c7-6e75-4fe8-85ee-0a7ce260acab",
+                        "option_id": 1572,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":2
+                    },
+                    {
+                        "uuid": "de8796c3-b49e-4c70-baf7-25645dae2aeb",
+                        "option_id": 1573,
+                        "label": "",
+                        "is_correct": true,
+                        "option_No":3
+                    },
+                    {
+                        "uuid": "8dc8bd74-2b18-4129-8a3e-25e95411518e",
+                        "option_id": 1574,
+                        "label": "Very true of me",
+                        "is_correct": true,
+                        "option_No":4
+                    }
+                ]
+            }
+        ]
+    }
+]
+

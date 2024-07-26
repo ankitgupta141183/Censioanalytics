@@ -1,0 +1,118 @@
+.Admin_Table {
+    box-shadow: 0px 2px 3px #72838e;
+    min-width: 100%;
+
+    .filter_admin-row {
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+        .sort-button{
+            margin-top: -5px !important;
+            margin-left: 13px !important;
+        }
+        select {
+            width: 100% !important;
+            border: 1px solid #e6ebef !important;
+            padding: 6px 4px !important;
+            font-size: 13px;
+            margin: 0 !important;
+            // color: rgb(199, 199, 199);
+            line-height: 1.21428571em;
+            height: 30px !important;
+        }
+        #checkAll{
+            width: auto !important;
+            border: 1px solid #e6ebef !important;
+            padding: 10px 4px !important;
+            font-size: 13px !important;
+
+            height: 30px !important;
+        }
+        input{
+            width: 86% !important;
+            border: 1px solid #e6ebef !important;
+            padding: 10px 4px !important;
+            font-size: 13px !important;
+            height: 30px !important;
+          }
+       
+    }
+}
+
+.Admin_Table a {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.common-header {
+    text-transform: capitalize
+}
+
+.Admin_Table tbody tr:hover {
+    background-color: #d1e1f8;
+    border-bottom: 3px solid #91c1ff !important;
+    border-top: 3px solid #91c1ff !important;
+}
+
+.Admin_Table tbody tr {
+    padding: 10px;
+    border-bottom: 2px solid rgb(230, 235, 239);
+    height: 33px;
+    color: rgb(114, 131, 142);
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 90px;
+}
+
+.Admin_Table td {
+    padding: 2px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ebe4e4;
+    word-break: break-word;
+    font-size: 13px;
+}
+
+thead th {
+    width: auto !important;
+}
+
+.Admin_Table th {
+    padding: 8px 16px;
+    text-align: left;
+    border-bottom: 2px solid #e6ebef;
+    // word-break: break-word;
+    text-align: left;
+    font-size: 13px;
+    color: #72838e;
+    background: #f2f5f7;
+    position: relative;
+}
+
+.filter-input {
+    width: 86% !important;
+    border: 1px solid #e6ebef !important;
+    padding: 10px 4px !important;
+    font-size: 13px !important;
+    height: 30px !important;
+    margin: 0%;
+
+    &:focus-visible {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+.sort-button {
+    padding: 0 !important;
+    background: transparent !important;
+    margin: 0px !important;
+    position: absolute;
+    // right: 4px;
+    top: 20px !important;
+    z-index: 1;
+
+    &:focus-visible {
+        outline: none;
+        box-shadow: none;
+    }
+}

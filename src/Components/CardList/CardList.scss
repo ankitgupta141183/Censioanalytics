@@ -1,0 +1,53 @@
+@import "../../Core/Style/Variables";
+
+.CardList {
+  background: $color__light-alpha;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+
+  &__container {
+    &__card-image {
+      margin-bottom: 15px;
+    }
+    &__date {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+      margin-bottom: 15px;
+      color: $color__fill-primary;
+    }
+    &__title {
+      font-size: 25px;
+      line-height: 32px;
+      font-weight: 800;
+      margin-bottom: 15px;
+      color: $color__fill-primary;
+      text-transform: uppercase;
+    }
+    &__description {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 15px;
+      color: $color__fill-primary;
+      text-align: justify;
+    }
+    &__share-icon {
+      margin-bottom: 15px;
+      cursor: pointer;
+      color: $primary_color !important;
+      font-size: 23px !important;
+    }
+    &__view-full-report {
+      background-color: $color__fill-white !important;
+      color: $primary_color !important;
+      border: 2px solid $primary_color !important;
+      // &:hover {
+      //   background: rgba($color__fill-primary, 0.5) !important;
+      // }
+    }
+    h2{
+      margin: 6px 0 15px 0;
+    }
+  }
+}

@@ -1,0 +1,983 @@
+[
+    {
+        "screen_no": 1,
+        "parent_question": "Please indicate how much you agree with the following statements as they apply to you over the last month. If a particular situation has not occurred recently, answer according to how you think you would have felt.",
+        "questions": [
+            {
+                "que_id": 8,
+                "question_label": "I am able to adapt when changes occur.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not true at all (left)"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Sometimes true"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Often true"
+                    },
+                    {
+                        "id": 4,
+                        "label": "True nearly all the time (right)"
+                    }
+                ]
+            },
+            {
+                "que_id": 9,
+                "question_label": " I can deal with whatever comes my way.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Neutral"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 10,
+                "question_label": "I try to see the humorous side of things when I am faced with problems. ",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Neutral"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 11,
+                "question_label": "I believe I can achieve my goals, even if there are obstacles.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Neutral"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 12,
+                "question_label": "Under pressure, I stay focused and think clearly.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Neutral"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 13,
+                "question_label": "I am not easily discouraged by failure. ",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Neutral"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 14,
+                "question_label": " I am able to handle unpleasant or painful feelings like sadness, fear, and anger.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Neutral"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Agree"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "screen_no": 2,
+        "parent_question": "On a scale of 1-7, where 1 is 'Strongly Diasgree' and 7 is 'Strongly Agree', please rate your LEVEL OF AGREEMENT with the statements below. ",
+        "questions": [
+            {
+                "que_id": 15,
+                "question_label": "I am constantly on the lookout for new ways to improve my life",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly Disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat Disagree"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Neither Agree or Disagree"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Somewhat Agree"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Agree"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Strongly Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 16,
+                "question_label": "Wherever I have been, I have been a powerful force for constructive change",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly Disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat Disagree"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Neither Agree or Disagree"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Somewhat Agree"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Agree"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Strongly Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 17,
+                "question_label": "Nothing is more exciting than seeing my ideas turn into reality",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly Disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat Disagree"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Neither Agree or Disagree"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Somewhat Agree"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Agree"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Strongly Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 18,
+                "question_label": "If I see something I don't like, I fix it",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly Disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat Disagree"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Neither Agree or Disagree"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Somewhat Agree"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Agree"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Strongly Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 19,
+                "question_label": "No matter what the odds, if I believe in something I will make it happen",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly Disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat Disagree"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Neither Agree or Disagree"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Somewhat Agree"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Agree"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Strongly Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 20,
+                "question_label": "I love being a champion for my ideas, even against others' opposition",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly Disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat Disagree"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Neither Agree or Disagree"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Somewhat Agree"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Agree"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Strongly Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 21,
+                "question_label": " I excel at identifying opportunities",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly Disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat Disagree"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Neither Agree or Disagree"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Somewhat Agree"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Agree"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Strongly Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 22,
+                "question_label": " I am always looking for better ways to do things",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly Disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat Disagree"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Neither Agree or Disagree"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Somewhat Agree"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Agree"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Strongly Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 23,
+                "question_label": "If I believe in an idea, no obstacle will prevent me from making it happen",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly Disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat Disagree"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Neither Agree or Disagree"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Somewhat Agree"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Agree"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Strongly Agree"
+                    }
+                ]
+            },
+            {
+                "que_id": 24,
+                "question_label": "I can spot a good opportunity long before others can",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Strongly Disagree"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Disagree"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat Disagree"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Neither Agree or Disagree"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Somewhat Agree"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Agree"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Strongly Agree"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "screen_no": 3,
+        "parent_question": "On a scale of 1-4, where 1 is 'Not at all true of me' and 4 is 'very true of me, please rate your",
+        "questions": [
+            {
+                "que_id": 20,
+                "question_label": "I like situations, in which I can find out how capable I am.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not at all true of me"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Rarely True"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Sometimes True"
+                    },
+                    {
+                        "id": 4,
+                        "label": "very true of me"
+                    }
+                ]
+            },
+            {
+                "que_id": 21,
+                "question_label": "When I am confronted with a problem, which I can possibly solve, I am enticed to start working on it immediately.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not at all true of me"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Rarely True"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Sometimes True"
+                    },
+                    {
+                        "id": 4,
+                        "label": "very true of me"
+                    }
+                ]
+            },
+            {
+                "que_id": 22,
+                "question_label": "I enjoy situations, in which I can make use of my abilities.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not at all true of me"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Rarely True"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Sometimes True"
+                    },
+                    {
+                        "id": 4,
+                        "label": "very true of me"
+                    }
+                ]
+            },
+            {
+                "que_id": 23,
+                "question_label": "I am appealed by situations allowing me to test my abilities.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not at all true of me"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Rarely True"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Sometimes True"
+                    },
+                    {
+                        "id": 4,
+                        "label": "very true of me"
+                    }
+                ]
+            },
+            {
+                "que_id": 24,
+                "question_label": "I am attracted by tasks, in which I can test my abilities.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not at all true of me"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Rarely True"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Sometimes True"
+                    },
+                    {
+                        "id": 4,
+                        "label": "very true of me"
+                    }
+                ]
+            },
+            {
+                "que_id": 25,
+                "question_label": "I am afraid of failing in somewhat difficult situations, when a lot depends on me.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not at all true of me"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Rarely True"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Sometimes True"
+                    },
+                    {
+                        "id": 4,
+                        "label": "very true of me"
+                    }
+                ]
+            },
+            {
+                "que_id": 26,
+                "question_label": "I feel uneasy to do something if I am not sure of succeeding.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not at all true of me"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Rarely True"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Sometimes True"
+                    },
+                    {
+                        "id": 4,
+                        "label": "very true of me"
+                    }
+                ]
+            },
+            {
+                "que_id": 27,
+                "question_label": "Even if nobody would notice my failure, I’m afraid of tasks, which I’m not able to solve.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not at all true of me"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Rarely True"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Sometimes True"
+                    },
+                    {
+                        "id": 4,
+                        "label": "very true of me"
+                    }
+                ]
+            },
+            {
+                "que_id": 28,
+                "question_label": "Even if nobody is watching, I feel quite anxious in new situations.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not at all true of me"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Rarely True"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Sometimes True"
+                    },
+                    {
+                        "id": 4,
+                        "label": "very true of me"
+                    }
+                ]
+            },
+            {
+                "que_id": 29,
+                "question_label": "If I do not understand a problem immediately, I start feeling anxious.",
+                "ques_type": "Likert ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not at all true of me"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Rarely True"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Sometimes True"
+                    },
+                    {
+                        "id": 4,
+                        "label": "very true of me"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "screen_no": 4,
+        "parent_question": " On a scale of 1-5, where 1 is 'Not like me at all' and 5 is ‘Very much like me’, please rate your LEVEL OF AGREEMENT with the statements below.",
+        "questions": [
+            {
+                "que_id": 31,
+                "question_label": "New ideas and projects sometimes distract me from previous ones.",
+                "ques_type": "Likert",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not like me at all"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Not much like me"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat like me"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Mostly like me"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Very much like me"
+                    }
+                ]
+            },
+            {
+                "que_id": 32,
+                "question_label": "Setbacks don’t discourage me.",
+                "ques_type": "Likert",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not like me at all"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Not much like me"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat like me"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Mostly like me"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Very much like me"
+                    }
+                ]
+            },
+            {
+                "que_id": 33,
+                "question_label": "I have been obsessed with a certain idea or project for a short time but later lost interest.",
+                "ques_type": "Likert",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not like me at all"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Not much like me"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat like me"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Mostly like me"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Very much like me"
+                    }
+                ]
+            },
+            {
+                "que_id": 34,
+                "question_label": "I am a hard worker.",
+                "ques_type": "Likert",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not like me at all"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Not much like me"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat like me"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Mostly like me"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Very much like me"
+                    }
+                ]
+            },
+            {
+                "que_id": 35,
+                "question_label": "I often set a goal but later choose to pursue a different one.",
+                "ques_type": "Likert",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not like me at all"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Not much like me"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat like me"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Mostly like me"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Very much like me"
+                    }
+                ]
+            },
+            {
+                "que_id": 36,
+                "question_label": "I have difficulty maintaining my focus on projects that take more than a few months to complete.",
+                "ques_type": "Likert",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not like me at all"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Not much like me"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat like me"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Mostly like me"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Very much like me"
+                    }
+                ]
+            },
+            {
+                "que_id": 37,
+                "question_label": "I finish whatever I begin.",
+                "ques_type": "Likert",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not like me at all"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Not much like me"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat like me"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Mostly like me"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Very much like me"
+                    }
+                ]
+            },
+            {
+                "que_id": 38,
+                "question_label": "I am diligent",
+                "ques_type": "Likert",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Not like me at all"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Not much like me"
+                    },
+                    {
+                        "id": 3,
+                        "label": "Somewhat like me"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Mostly like me"
+                    },
+                    {
+                        "id": 5,
+                        "label": "Very much like me"
+                    }
+                ]
+            }
+        ]
+    }
+]

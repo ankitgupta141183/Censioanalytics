@@ -1,0 +1,823 @@
+/*$profile__form-border: #e0e1eb;*/
+.ui.form .field.field input:-webkit-autofill {
+  border-color: #7a7a7a !important;
+}
+
+.header-logo {
+  height: 100%;
+}
+
+.login-header-seperate {
+  background: #ffffff;
+}
+
+.register-full-background {
+  background: #f5f8fe;
+  height: calc(100vh - 51px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.register-full-background .login-header-seperate {
+  background: #ffffff;
+}
+
+.register-full-background .register-page-content-area {
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-100 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.image-logo-censio-before-login {
+  max-width: 210px !important;
+}
+
+.align-verticle__center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.register-content-sec::before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: #c8d1e3;
+  left: 0px;
+  top: 0%;
+  position: absolute;
+}
+
+.forgot-page .forgot-page__header {
+  background: #ffffff;
+}
+
+.forgot-page .center-align {
+  width: 70%;
+  margin: auto;
+}
+
+.register-page p {
+  font-size: 1.5rem;
+}
+
+.register-page .register-content-sec {
+  margin-bottom: 15px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.register-page .register-content-sec .register-inner-sec {
+  margin-top: 0px;
+}
+
+.register-page .image-register {
+  width: 78%;
+  margin: 0 auto !important;
+}
+
+.register-page .image-register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.register-page .active-btn-register {
+  background: #1b75bc !important;
+}
+
+.register-page .active-btn-register p {
+  color: #fff;
+}
+
+.register-page .select-register-btn {
+  width: 235px;
+  border: 2px solid #1b75bc;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 12px;
+  background-color: #fff;
+}
+
+.register-page .select-register-btn p {
+  text-align: center;
+  color: #1b75bc;
+  font-weight: 600;
+}
+
+.register-page .horigetail-line-register {
+  height: 3px;
+  background: #dededf;
+  width: 100px;
+  border-radius: 20px;
+  margin-top: 12px;
+}
+
+.register-page .select-register-have-code {
+  width: 235px;
+  border: 2px solid #10090f;
+  padding: 12px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  background-color: #f5f8fe;
+}
+
+.register-page .select-register-have-code p {
+  text-align: center;
+  color: #10090f;
+  font-weight: 600;
+}
+
+.register-page .error-alpha-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.register-page .error-alpha-content p {
+  color: #9f3a38;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.register-page .error-alpha-content .error-alpha {
+  width: 51%;
+}
+
+.register-page .two-div-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.register-page .two-div-inline .first-div {
+  width: 51%;
+}
+
+.register-page .two-div-inline .first-div .react-datepicker-wrapper {
+  width: 96%;
+}
+
+.register-page .two-div-inline .first-div .react-datepicker-wrapper .react-datepicker__input-container input[type="text"] {
+  border: 2px solid #7a7a7a;
+  padding: 14px;
+}
+
+.register-page .two-div-inline label {
+  margin-top: 0;
+}
+
+.register-page .two-div-inline .second-div {
+  width: 49%;
+}
+
+.register-page .center-align .sub-center-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.primary-btn {
+  border: 2px solid #1b75bc !important;
+  padding: 12px !important;
+  border-radius: 6px !important;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 20px !important;
+  background-color: #1b75bc !important;
+  color: #fff !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+}
+
+.sign-filter-main {
+  background-color: #f5f8fe;
+  padding: 30px;
+  height: auto !important;
+}
+
+.equal.width.fields::first-child {
+  padding: 0 15px;
+}
+
+.sign-page-filter {
+  padding: 30px;
+  background: #fff;
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.sign-page-filter .image-user {
+  margin-bottom: 20px;
+}
+
+.sign-page-filter .equal.width.fields {
+  margin-bottom: 6px;
+}
+
+.sign-page-filter .field .ui.fluid.input input {
+  border: 2px solid #7a7a7a;
+  padding: 14px;
+  line-height: 1.21428571em;
+}
+
+.sign-page-filter .flag-dropdown {
+  border: 2px solid #7a7a7a !important;
+}
+
+.sign-page-filter .ui.fluid.selection.dropdown {
+  border: 2px solid #7a7a7a;
+  padding: 14px;
+}
+
+.sign-page-filter .ui.fluid.selection.dropdown i.dropdown.icon {
+  padding: 14px;
+}
+
+.sign-page-filter .date-picker-sign-up {
+  width: 100%;
+  margin: 0 0.5em;
+}
+
+.sign-page-filter .date-picker-sign-up .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.sign-page-filter .label-custom {
+  display: block;
+  margin: 0 0 0.28571429rem 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.92857143em;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: 10px;
+}
+
+.header-logobefore-login {
+  padding: 8px 30px;
+  background: #fff;
+}
+
+.header-logobefore-login button.ui.button.login-account-btn {
+  background: #000;
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 8px;
+  margin-right: 8px;
+  font-size: 13px;
+  -webkit-box-shadow: 0px 0px 5px #000;
+          box-shadow: 0px 0px 5px #000;
+}
+
+button.ui.button.next-button {
+  background: #cce0f0;
+  color: #114e7d;
+}
+
+.header-logobefore-login button.ui.button.close-btn {
+  float: right;
+  background-color: #fff;
+}
+
+.image-edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-edit .image-upload {
+  width: 120px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.image-edit .image-upload img.ui.image.image-user {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 66px;
+  border: 1px solid #f1f1f1;
+  margin: 0;
+}
+
+.image-edit button.ui.button.edit-button {
+  margin-left: 50px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  border-bottom: 1px solid;
+}
+
+.code-page p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.code-page .input-code {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+
+.code-page .code-close {
+  text-align: end;
+  margin-top: 20px;
+}
+
+.code-page .code-close .close-btn-code {
+  background: #fff;
+}
+
+.ui.horizontal.list.nav-login-header {
+  width: 100%;
+  margin-left: 8px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ui.horizontal.list.nav-login-header .item {
+  padding-right: 20px;
+}
+
+.question-register-full-background {
+  margin-top: 94px;
+  margin-left: 0;
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #f5f8fe;
+}
+
+.question-register-page {
+  margin-bottom: 100px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.question-register-page .equal.width.fields {
+  margin-bottom: 15px;
+}
+
+.question-register-page .field .ui.fluid.input input {
+  border: 1px solid #7a7a7a;
+  padding: 14px;
+  line-height: 1.21428571em;
+}
+
+.question-register-page .flag-dropdown {
+  border: 1px solid #7a7a7a !important;
+}
+
+.question-register-page .ui.fluid.selection.dropdown {
+  border: 1px solid #7a7a7a;
+  padding: 14px;
+}
+
+.question-register-page .ui.fluid.selection.dropdown i.dropdown.icon {
+  padding: 14px;
+}
+
+.question-register-page .date-picker-sign-up {
+  width: 100%;
+  margin: 0 0.5em;
+}
+
+.question-register-page .date-picker-sign-up .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.question-register-page .label-custom {
+  display: block;
+  margin: 0 0 0.28571429rem 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.92857143em;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: 10px;
+}
+
+.question-register-page .question-register-page-form {
+  width: 80%;
+  margin: 30px auto 100px auto;
+}
+
+.question-register-page .question-register-page-form input {
+  border: 1px solid #7a7a7a;
+}
+
+.question-register-page-form input {
+  border: 1px solid #7a7a7a;
+}
+
+.question-register-page-form select {
+  margin: 0px 0 2px 0 !important;
+}
+
+.field .ui.input input {
+  width: auto;
+  border: 2px solid #7a7a7a;
+  height: 48px;
+}
+
+.ui.form .field > .selection.dropdown {
+  border: 2px solid #7a7a7a;
+  height: 48px;
+}
+
+.react-tel-input .selected-flag {
+  border: 2px solid #7a7a7a;
+  border-radius: 3px 0 0 3px;
+  height: 47px;
+  padding: 0 5px;
+}
+
+.question-register-page-form {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1px 0 16px 0;
+  width: 70%;
+  margin: auto;
+}
+
+.progress-bar {
+  width: 700px;
+  height: 200px;
+  margin-top: 45px;
+}
+
+.profile-section .selected-flag {
+  border: none;
+}
+
+.profile-bg {
+  margin-left: 130px !important;
+  margin-top: 91px;
+  height: calc(100vh - 150px);
+  background: #f2f5f7;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.vt-align-center {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.profile-form-section .selected-flag {
+  border: none;
+}
+
+.profile-form {
+  padding: 16px 16px;
+  background: #fff;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.profile-form select {
+  border: 2px solid #7a7a7a !important;
+  height: 48px;
+}
+
+.txt-20 {
+  font-size: 20px !important;
+}
+
+.profile-btn {
+  margin: 0 0 0 0;
+  padding: 8px 25px !important;
+  min-width: auto !important;
+}
+
+.RSPBprogressBar {
+  width: 16%;
+  margin: 22px auto 22px auto;
+  height: 2px !important;
+}
+
+input {
+  border: 2px solid #7a7a7a !important;
+  padding: 14px !important;
+  margin: 20px 0 0 0;
+}
+
+select {
+  border: 2px solid #7a7a7a !important;
+  padding: 14px !important;
+  margin: 0px 0 8px 0 !important;
+}
+
+.login-option-seperator::before {
+  content: "";
+  height: 2px;
+  width: 80%;
+  display: block;
+  background: #e0e0e0;
+  margin: 0 15px;
+}
+
+.login-option-seperator::after {
+  content: "";
+  height: 2px;
+  width: 80%;
+  display: block;
+  background: #e0e0e0;
+  margin: 0 15px;
+}
+
+.login-option-seperator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
+}
+
+.buttons-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.password-rule-list {
+  list-style: none;
+  width: 100%;
+  display: inline-block;
+}
+
+.password-rule-list li {
+  width: 50%;
+  float: left;
+  font-size: 12px;
+  color: #8c8e91;
+}
+
+.password-rule-list i {
+  color: #1b75bc;
+  font-size: 10px;
+  margin-right: 12px;
+}
+
+.w-35 {
+  width: 35%;
+  margin: 0;
+}
+
+.w-25 {
+  width: 25%;
+  margin: 0;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.show-txt-input {
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 2px solid #7a7a7a;
+  border-top: 2px solid #7a7a7a;
+  border-bottom: 2px solid #7a7a7a;
+  padding: 13px 20px 12px 40px !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #e0e0e0;
+  position: relative;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.custom-password-field {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.ui.form .field > label {
+  color: rgba(0, 0, 0, 0.87) !important;
+  font-size: 1em;
+  font-weight: 200 !important;
+}
+
+.agree-txt-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px 20px 12px 31px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  position: relative;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.agree-txt-input a {
+  color: #1b75bc;
+  font-weight: 600;
+  margin-left: 3px;
+  z-index: 1;
+}
+
+.checkmark-agree {
+  position: absolute;
+  top: 12px;
+  left: 3px;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 2px solid #7a7a7a;
+}
+
+.hidden-agree-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+}
+
+input:checked ~ .checkmark-agree {
+  background-color: #2196F3;
+  text-align: center;
+}
+
+input:checked ~ .checkmark-agree::after {
+  content: '\2714';
+  color: #fff;
+}
+
+.greenClass {
+  background-color: #008000;
+}
+
+.ui.form .fields {
+  margin: 0 -0.5em 0.5em;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.profile-page-form {
+  padding: 16px 16px;
+  background: #f9fbfd;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.stepper-register-form {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.profile-form-section {
+  background: #f9fbfd;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 6px 14px 5px #4b66ab33;
+          box-shadow: 0 6px 14px 5px #4b66ab33;
+}
+
+.email-existing-input {
+  padding: 14px !important;
+  border: 1px solid red;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  margin-top: 3px;
+  background-color: #fff0f1;
+}
+
+.login-footer .txt-12 {
+  font-size: 12px !important;
+  font-weight: normal;
+}
+
+.accomplished {
+  background: #207bbd;
+  color: #fff;
+  text-align: center;
+  height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  width: 30px;
+}
+
+.null {
+  width: 30px;
+  background: #e0e0e0;
+  color: #fff;
+  text-align: center;
+  height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=register.css.map */

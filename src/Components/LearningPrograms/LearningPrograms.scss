@@ -1,0 +1,96 @@
+@import "../../Core/Style/Variables.scss";
+
+.ui.grid > .column:not(.row), .ui.grid > .row > .column{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ui.tiny.progress{
+    margin: 0 !important;
+}
+.learning-programs-page-inner{
+    background: $color__fill-white;
+    border-radius: 20px;
+}
+.filter-lest-space{
+    margin-left: 16px;
+}
+.learning-programs-page-inner{
+    padding: 15px 15px;
+    .my_program-bottom-list span{
+        font-weight: 600;
+        margin-right: 25px;
+        color: $primary_color;
+    }
+    .filter-main-area{
+        margin: 0;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .ui.segment{
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .ui.progress .bar{
+        background: $color__fill-secondary !important;
+    }
+    .ui.secondary.menu .active.item{
+        // background: rgb(203 206 206) !important;
+        // padding: 13px 10px !important;
+        // border-top-left-radius: 20px !important;
+        // border-bottom-left-radius: 20px !important;
+        // border-top-right-radius: 20px !important;
+        // border-bottom-right-radius: 2px !important;
+        // margin: 0 .35714286em !important;
+        // font-size: 18px;
+        // font-weight: 600;
+        // background: #ced0d0 !important;
+        background: #f5f8fe !important;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    // .ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover{
+        
+        // padding: 13px 10px !important;
+        // border-top-left-radius: 20px !important;
+        // border-bottom-left-radius: 20px !important;
+        // border-top-right-radius: 20px !important;
+        // border-bottom-right-radius: 2px !important;
+        // margin: 0 .35714286em !important;
+        // font-size: 18px;
+    // }
+    .ui.secondary.menu .item{
+        // padding: 13px 10px !important;
+        // border-top-left-radius: 20px !important;
+        // border-bottom-left-radius: 20px !important;
+        // border-top-right-radius: 20px !important;
+        // border-bottom-right-radius: 2px !important;
+        // margin: 0 .35714286em !important;
+        // font-size: 18px;
+        
+        font-size: 18px;
+        
+    }
+    .ui.segment.active.tab{
+        margin-top: 0 !important;
+    }
+    .ui.secondary.menu{
+        margin-bottom: 0 !important;
+    }
+}
+
+.learning_program-sec{
+    
+    .program-continue-sec{
+        font-size: 2em;
+    }
+    .ui .segment .active .tab{
+        margin-top: 0;
+    }
+    .program__continue-btn{
+        background-color: $color__fill-white !important;
+        color: $primary_color !important;
+        margin-top: 60px;
+        border: 2px solid $primary_color;
+    }
+    
+}

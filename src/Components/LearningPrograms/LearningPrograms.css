@@ -1,0 +1,78 @@
+/*$profile__form-border: #e0e1eb;*/
+.ui.grid > .column:not(.row), .ui.grid > .row > .column {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ui.tiny.progress {
+  margin: 0 !important;
+}
+
+.learning-programs-page-inner {
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.filter-lest-space {
+  margin-left: 16px;
+}
+
+.learning-programs-page-inner {
+  padding: 15px 15px;
+}
+
+.learning-programs-page-inner .my_program-bottom-list span {
+  font-weight: 600;
+  margin-right: 25px;
+  color: #1b75bc;
+}
+
+.learning-programs-page-inner .filter-main-area {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.learning-programs-page-inner .ui.segment {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.learning-programs-page-inner .ui.progress .bar {
+  background: #69d2c9 !important;
+}
+
+.learning-programs-page-inner .ui.secondary.menu .active.item {
+  background: #f5f8fe !important;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.learning-programs-page-inner .ui.secondary.menu .item {
+  font-size: 18px;
+}
+
+.learning-programs-page-inner .ui.segment.active.tab {
+  margin-top: 0 !important;
+}
+
+.learning-programs-page-inner .ui.secondary.menu {
+  margin-bottom: 0 !important;
+}
+
+.learning_program-sec .program-continue-sec {
+  font-size: 2em;
+}
+
+.learning_program-sec .ui .segment .active .tab {
+  margin-top: 0;
+}
+
+.learning_program-sec .program__continue-btn {
+  background-color: #ffffff !important;
+  color: #1b75bc !important;
+  margin-top: 60px;
+  border: 2px solid #1b75bc;
+}
+/*# sourceMappingURL=LearningPrograms.css.map */

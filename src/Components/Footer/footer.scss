@@ -1,0 +1,40 @@
+@import "../../Core/Style/Variables";
+
+.outer-footer{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 16px 0;
+    background: #fff;
+    p{
+        text-align: center;
+    }
+    .sm-block{
+        display: none;
+        ul{
+            font-weight: bold;
+            li{
+                margin: 0 12px 0 0;
+            }
+        }
+        @media screen and (max-width: $sm) {
+            display: block;
+        }
+    }
+    
+    .sm-hide{
+        @media screen and (max-width: $sm) {
+            display: none;
+        }
+    }
+    .footer-outer-list{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+
+        li{
+            margin: 0 40px 0 0;
+            cursor: pointer;
+        }
+    }
+}

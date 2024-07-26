@@ -1,0 +1,14 @@
+
+.parent-scale{
+    display: flex;
+    .scale-one{
+        background-color: aqua;
+        width: 39%;
+    }
+    .scale-two{
+        background-color:brown;
+    }
+    .scale-three{
+        background-color: chartreuse;
+    }
+}

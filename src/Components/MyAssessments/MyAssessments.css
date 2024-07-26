@@ -1,0 +1,26 @@
+/*$profile__form-border: #e0e1eb;*/
+.my-assessments-page-inner .page-header {
+  margin-bottom: 25px;
+}
+
+.my-assessments-page-inner .page-header__left__title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 800;
+  color: #43425d;
+}
+
+.my-assessments-page-inner .page-header__right__button button {
+  background: #1b75bc !important;
+  color: #ffffff !important;
+  padding: 18px 28px !important;
+}
+
+.my-assessments-page-inner .page-header__right__button button:hover {
+  background: rgba(67, 66, 93, 0.5) !important;
+}
+
+.my-assessments-page-inner .H1DesktopPrimary {
+  color: #43425d !important;
+}
+/*# sourceMappingURL=MyAssessments.css.map */

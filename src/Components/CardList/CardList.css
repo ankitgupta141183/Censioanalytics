@@ -1,0 +1,54 @@
+/*$profile__form-border: #e0e1eb;*/
+.CardList {
+  background: #002b49;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.CardList__container__card-image {
+  margin-bottom: 15px;
+}
+
+.CardList__container__date {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #43425d;
+}
+
+.CardList__container__title {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #43425d;
+  text-transform: uppercase;
+}
+
+.CardList__container__description {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  color: #43425d;
+  text-align: justify;
+}
+
+.CardList__container__share-icon {
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: #1b75bc !important;
+  font-size: 23px !important;
+}
+
+.CardList__container__view-full-report {
+  background-color: #ffffff !important;
+  color: #1b75bc !important;
+  border: 2px solid #1b75bc !important;
+}
+
+.CardList__container h2 {
+  margin: 6px 0 15px 0;
+}
+/*# sourceMappingURL=CardList.css.map */

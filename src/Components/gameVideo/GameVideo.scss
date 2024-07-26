@@ -1,0 +1,40 @@
+.game_video_page{
+    // padding-top: 155px;
+    // margin-left: 225px;
+    // height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    // display: flex;
+    justify-content: center;
+    iframe {
+        border: none;
+        display: block;
+        width: 80%;
+        height: 90%;
+        margin: auto;
+    
+        canvas {
+          width: 100% !important;
+          height: 100% !important;
+          margin: 0 auto !important;
+        }
+        html{
+          background: #fff !important;
+        }
+        body{
+            background-color: #eaf1fe;
+            width: 100%;
+            height: 100%;
+        }
+      }
+      .game_video-container{
+        width: 100%;
+        margin: auto;
+        video{
+          display: block;
+        }
+        video::-webkit-media-controls-fullscreen-button {
+          display: none;
+        }
+      }
+}

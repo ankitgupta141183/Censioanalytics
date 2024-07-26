@@ -1,0 +1,52 @@
+.completed_game-status .select-input {
+  display: block;
+  background: #fff;
+  width: auto !important;
+  font-size: 0.8em !important;
+  border: 2px solid #e6ebef !important;
+  height: 33px !important;
+  padding: 0 0 !important;
+  border-radius: 0.28571429rem;
+  -webkit-box-shadow: 0 0 0 0 transparent inset;
+          box-shadow: 0 0 0 0 transparent inset;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: color .1s ease,border-color .1s ease;
+  transition: color .1s ease,border-color .1s ease;
+}
+
+.completed_game-status .status_table {
+  margin-left: 225px !important;
+  padding-top: 133px;
+  height: calc(100vh - 20px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.completed_game-status .p-3 {
+  padding: 30px;
+}
+
+.completed_game-status .status_table-inner {
+  margin-top: 16px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 100px;
+}
+
+.completed_game-status table {
+  width: 100%;
+  background: #f9f9f9;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+.completed_game-status table thead th {
+  border-right: 2px solid #e6ebef;
+  color: #72838e;
+  background: #f2f5f7;
+}
+
+.completed_game-status table td {
+  border-right: 2px solid #e6ebef;
+}
+/*# sourceMappingURL=UsersStatusTable.css.map */

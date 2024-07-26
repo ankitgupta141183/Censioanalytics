@@ -1,0 +1,23 @@
+.outer-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 16px 0;
+  background: #fff;
+}
+
+.footer-outer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-outer-list li {
+  margin: 0 40px 0 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=footer.css.map */

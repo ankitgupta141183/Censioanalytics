@@ -1,0 +1,16 @@
+ul.thumbs.animated {
+  display: none;
+}
+
+p.carousel-status {
+  display: none;
+}
+
+.image-slide img {
+  height: 300px;
+}
+
+.carousel .slide iframe {
+  width: calc(100% - 50%);
+}
+/*# sourceMappingURL=carousel.css.map */

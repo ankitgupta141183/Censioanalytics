@@ -1,0 +1,564 @@
+/*$profile__form-border: #e0e1eb;*/
+.home-page .today-sec {
+  background: url("../../assets/img/today-bg.svg");
+  text-align: center;
+  padding: 18% 0 7% 0;
+  background-size: cover;
+  position: relative;
+}
+
+.home-page .today-sec button {
+  background: #1b75bc !important;
+  color: #ffffff !important;
+  margin-top: 20px !important;
+}
+
+.home-page .today-sec .today-dot-img {
+  position: absolute;
+  top: 16%;
+  right: 20%;
+}
+
+.home-page .today-sec p {
+  font-size: 1.5rem !important;
+}
+
+.home-page .pr-color {
+  color: #1b75bc;
+}
+
+.home-page h1.ui.header {
+  color: #1f3d40 !important;
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: 800 !important;
+}
+
+.home-page p {
+  font-size: 1.3rem !important;
+}
+
+.home-page .clr-heading {
+  color: #69d2c9 !important;
+  font-size: 1.8rem !important;
+}
+
+.home-page .bg-white {
+  background: #ffffff;
+}
+
+.home-page .txt-center {
+  text-align: center;
+}
+
+.home-page .txt-center-justify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-page .home-main-new {
+  background: #ffffff;
+}
+
+.home-page .vt-center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.home-page .discover-sec {
+  background: #f5f8fe;
+  padding: 30px 0;
+}
+
+.home-page .discover-sec .discover-txt {
+  font-size: 3rem !important;
+  font-weight: bold;
+}
+
+.home-page .discover-sec button {
+  margin-top: 30px !important;
+}
+
+.home-page .personality-main-sec {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.home-page .how-it-work-main-sec {
+  padding: 60px 0;
+  background: #202a31;
+  color: #ffffff;
+}
+
+.home-page .how-it-work-main-sec p {
+  color: #ffffff !important;
+}
+
+.home-page .how-it-work-main-sec h1 {
+  color: #ffffff !important;
+  margin-bottom: 30px !important;
+}
+
+.home-page .how-it-work-main-sec button {
+  background: #1b75bc !important;
+  color: #ffffff !important;
+  margin-top: 40px !important;
+}
+
+.home-page .different-sec {
+  background: #ffffff !important;
+  padding: 100px 0;
+  margin-bottom: 13rem;
+}
+
+.home-page .different-sec .horizontal-space {
+  font-size: 1.2rem !important;
+  color: #728081 !important;
+}
+
+.home-page .different-sec .h-fix-heading {
+  min-height: 4rem !important;
+}
+
+.home-page .different-sec p {
+  color: #728081 !important;
+  margin: 0;
+  font-size: 1.2rem !important;
+}
+
+.home-page .different-sec h2 {
+  font-size: 1.5rem !important;
+}
+
+.home-page .different-sec .different-sec_img {
+  max-height: 330px;
+  width: 100%;
+  min-height: 330px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.home-page .objective-inside {
+  color: #212121bf;
+}
+
+.home-page .potencial-landing {
+  height: 100%;
+  position: relative;
+}
+
+.home-page .potencial-landing .potencial-content {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.home-page .potencial-landing .potencial-content span {
+  border-bottom: 2px solid;
+}
+
+.home-page .potencial-landing .potencial-content p {
+  font-size: 15px;
+}
+
+.home-page .potencial-landing .potencial-content .take-assement {
+  background-color: #1b75bc;
+  color: #ffffff;
+}
+
+.home-page .home-top-section {
+  background: url("../../assets/img/Censio_Main_Illustrations_5.gif");
+  background-color: #f5f8fe;
+  background-repeat: no-repeat;
+  background-size: 96% 113%;
+  padding: 42px 0 239px 0;
+}
+
+.home-page .home-top-section p {
+  font-size: 1.5rem;
+  color: #1f3d40 !important;
+  font-weight: 400 !important;
+}
+
+.home-page .home-top-section .btn-primary {
+  background: #1b75bc !important;
+  color: #ffffff;
+}
+
+.home-page .home-top-section .yourself-better-section img {
+  width: 100%;
+}
+
+.home-page .home-top-section .yourself-better-section img video {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.home-page .home-top-section .top-inner-sec {
+  margin: 6rem 0;
+}
+
+.home-page .top_video {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.home-page .text-light {
+  color: #000;
+  font-size: 1.1rem !important;
+}
+
+.home-page .pd-right-none {
+  padding-right: 0px !important;
+}
+
+.home-page .w-100 {
+  width: 100%;
+}
+
+.home-page .bottom-space {
+  margin-bottom: 0.1rem !important;
+}
+
+.home-page .text-heading {
+  font-size: 1.5rem !important;
+  margin-bottom: 10px !important;
+  font-weight: 800;
+  color: #1f3d40 !important;
+}
+
+.home-page .bdr-left {
+  border-left: 1px solid #f1f1f1;
+  padding-left: 18px;
+}
+
+.home-page .about-censio {
+  padding: 5rem 0;
+}
+
+.home-page .about-censio h1 {
+  color: #1f3d40 !important;
+  font-size: 56px !important;
+  line-height: 66px !important;
+  font-weight: 700 !important;
+}
+
+.home-page .about-censio .clr-heading {
+  color: #69d2c9;
+  font-size: 1.8rem !important;
+}
+
+.home-page .about-censio .step-dot-img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem 0 0 0;
+}
+
+.home-page .about-censio .active-step {
+  border-left: 4px solid #1b75bc;
+  padding-left: 15px;
+}
+
+.home-page .about-censio .client-profile {
+  color: #728081 !important;
+  font-size: 1.5rem !important;
+}
+
+.home-page .about-censio .client-profile p {
+  margin: 0 !important;
+  font-size: 1.5rem !important;
+}
+
+.home-page .about-censio .client-name {
+  font-weight: bold !important;
+}
+
+.home-page .about-censio .s-color {
+  color: #69d2c9;
+}
+
+.home-page .beyond-assesment {
+  margin-left: 210px;
+  margin-top: 100px;
+}
+
+.home-page .beyond-assesment h3.ui.header {
+  margin-bottom: 5px;
+}
+
+.home-page .beyond-assesment .start-bottom {
+  margin-top: 60px;
+}
+
+.home-page .beyond-assesment .start-icon {
+  font-size: 20px !important;
+  background: #ffffff;
+  padding: 5px !important;
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  border-radius: 50px;
+}
+
+.home-page .beyond-assesment p {
+  margin-left: 50px;
+  font-size: 15px;
+  width: 60%;
+}
+
+.home-page .beyond-assesment .beyond-heading {
+  color: #1b75bc;
+  margin-bottom: 45px;
+}
+
+.home-page .mission-sec {
+  padding: 100px 0;
+  margin-bottom: 6rem;
+}
+
+.home-page .mission-sec h1 {
+  font-size: 3.3rem !important;
+}
+
+.home-page .mission-sec .our-mission-desc {
+  font-size: 2.5rem !important;
+  color: #1f3d40 !important;
+}
+
+.home-page .mission-sec .mg-negative {
+  margin-top: -17rem;
+}
+
+.home-page .step-slider-bg {
+  background-image: url("../../assets/img/slide-bg-new.png");
+  padding: 20% 0 17% 0;
+  background-color: #ffffff !important;
+  background-size: 100% 100%;
+}
+
+.home-page .step-slider-bg img {
+  -webkit-box-shadow: 0px 1px 10px #e7e3e3;
+          box-shadow: 0px 1px 10px #e7e3e3;
+  border-radius: 20px !important;
+}
+
+.home-page .step-slider-bg .control-dots {
+  display: none;
+}
+
+.home-page .step-slider-bg .carousel.carousel-slider .control-arrow {
+  background: #69d2c9 !important;
+  height: 41px !important;
+  border-radius: 100% !important;
+  padding: 0 11px !important;
+  position: absolute !important;
+  top: 52% !important;
+}
+
+.home-page .step-slider-bg .image-slide img {
+  height: 340px !important;
+}
+
+.home-page .carousel .control-dots .dot {
+  background: #69d2c9 !important;
+}
+
+.home-page .carousel.carousel-slider .control-arrow {
+  background: #69d2c9 !important;
+  height: 41px !important;
+  border-radius: 100% !important;
+  padding: 0 11px !important;
+  position: absolute !important;
+  top: 67% !important;
+}
+
+.home-page .carousel .control-arrow, .home-page .carousel.carousel-slider .control-arrow {
+  opacity: 1 !important;
+}
+
+.home-page .testimonial-img {
+  width: 295px;
+}
+
+.home-page .testimonial-main .testimonial-img {
+  width: 295px !important;
+}
+
+.home-page .testimonial-main .image-slide img {
+  width: 185px !important;
+  height: 230px !important;
+  padding: 15px;
+  border: 1px solid #69d2c9 !important;
+  border-radius: 100%;
+  margin-bottom: 30px;
+}
+
+.home-page .testimonial-main .control-dots {
+  position: absolute !important;
+  bottom: -14px !important;
+}
+
+.home-page .top-video-section {
+  padding: 100px 0;
+}
+
+.home-page .admission-experts {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.home-page .admission-experts .bottom-space {
+  margin-bottom: 0.1rem !important;
+}
+
+.home-page .admission-experts .active-step {
+  border-left: 4px solid #1b75bc;
+  padding-left: 15px;
+}
+
+.home-page .set-right-img {
+  width: 70%;
+  position: absolute;
+  margin-left: 11rem;
+}
+
+.home-page .educators {
+  padding: 100px 0;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 45% 69%;
+}
+
+.home-page .educators .bottom-space {
+  margin-bottom: 0.1rem !important;
+}
+
+.home-page .educators .active-step {
+  border-left: 4px solid #1b75bc;
+  padding-left: 15px;
+}
+
+.home-page .educators .m-small {
+  margin-bottom: 8px;
+}
+
+.home-page .educators .step-dot-img {
+  margin: 3rem 0 0 0;
+}
+
+.home-page .educators .experts-list {
+  margin: 0 0 1em;
+  line-height: 1.4285em;
+}
+
+.home-page .educators .experts-list li {
+  margin-bottom: 8px;
+}
+
+.home-page .educators .disactive-step {
+  padding-left: 15px;
+}
+
+.home-page .educators .disactive-step li {
+  margin-bottom: 8px;
+}
+
+.home-page .science-sec {
+  padding: 100px 0;
+  background-color: #ffffff;
+  background-position: right;
+  background-size: 45% 69%;
+  background-repeat: no-repeat;
+}
+
+.home-page .science-sec i {
+  font-size: 10px;
+}
+
+.home-page .science-sec .content {
+  line-height: 1.6rem !important;
+}
+
+.home-page .science-sec .active-step {
+  padding-left: 15px;
+  border-left: 4px solid #1b75bc;
+}
+
+.home-page .whom-sec-img {
+  width: 66%;
+}
+
+.home-page .bottom-shade {
+  background-color: #E4FCFA;
+}
+
+.home-page .carousel .slide img {
+  height: 100% !important;
+}
+
+.profile-popup-img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+
+.profile-popup {
+  position: absolute !important;
+  right: 0;
+  top: 71%;
+  z-index: 110;
+  height: calc(100vh - 160px);
+  background: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: block !important;
+  min-width: 585px !important;
+}
+
+.profile-popup .header {
+  padding: 0 !important;
+}
+
+.profile-popup .main-content {
+  margin: 0 18px;
+}
+
+.profile-popup .actions {
+  padding: 0 !important;
+}
+
+.profile-popup .edit-button {
+  font-size: 12px;
+  background: transparent;
+  padding: 0 1px;
+  color: #1b75bc;
+  text-decoration: underline;
+}
+
+.profile-popup .edit-button:hover {
+  background: transparent;
+  color: #1b75bc;
+}
+
+.profile-popup-close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto !important;
+  padding: 0;
+  background: transparent !important;
+}
+/*# sourceMappingURL=Home.css.map */

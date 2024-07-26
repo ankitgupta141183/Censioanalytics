@@ -1,0 +1,164 @@
+body {
+  background: #f9fbfd;
+}
+
+.admin-main {
+  height: 100%;
+}
+
+.admin-dashboard-bg {
+  background: #f2f7ff;
+}
+
+.p-3 {
+  padding: 30px;
+}
+
+.admin {
+  margin-left: 50px !important;
+  padding-top: 88px;
+  height: calc(100vh - 0px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.admin-inner {
+  margin-left: 225px !important;
+  padding-top: 133px;
+  height: calc(100vh - 20px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.admin h1 {
+  padding: 20px 0 0 0;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+
+.users {
+  margin-top: 0px;
+}
+
+.users h3 {
+  color: #1b75bc;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+  background: #f9f9f9;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+/* .admin-main .row:first-child{
+    display: none;
+} */
+.admin_user-table th:nth-child(1) {
+  width: 5%;
+  text-align: center;
+}
+
+.admin_user-table th:nth-child(2) {
+  width: 7%;
+}
+
+.admin_user-table th:nth-child(3) {
+  width: 16%;
+}
+
+.admin_user-table th:nth-child(4) {
+  width: 18%;
+}
+
+.admin_user-table th:nth-child(5) {
+  width: 10%;
+}
+
+.admin_user-table th:nth-child(6) {
+  width: 8%;
+}
+
+.admin_user-table th:nth-child(7) {
+  width: 10%;
+}
+
+.admin_user-table th:nth-child(8) {
+  width: 10%;
+}
+
+.admin_user-table th:nth-child(9) {
+  width: 10%;
+}
+
+.admin_user-table th:nth-child(10) {
+  width: 8%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Admin_Table {
+  -webkit-box-shadow: 0px 2px 3px #72838e;
+          box-shadow: 0px 2px 3px #72838e;
+}
+
+.Admin_Table a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Admin_Table tbody tr:hover {
+  background-color: #d1e1f8;
+  border-bottom: 3px solid #91c1ff !important;
+  border-top: 3px solid #91c1ff !important;
+}
+
+.Admin_Table tbody tr {
+  padding: 10px;
+  border-bottom: 2px solid #e6ebef;
+  height: 33px;
+  color: #72838e;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 90px;
+}
+
+.Admin_Table td {
+  padding: 2px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ebe4e4;
+  word-break: break-word;
+  font-size: 13px;
+}
+
+.Admin_Table th {
+  padding: 8px 16px;
+  text-align: left;
+  border-bottom: 2px solid #e6ebef;
+  word-break: break-word;
+  text-align: left;
+  font-size: 13px;
+  color: #72838e;
+  background: #f2f5f7;
+}
+
+.pagination-bg {
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.Admin_Graph-blog {
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+  height: 100%;
+  padding: 1.5rem 1.5rem;
+}
+/*# sourceMappingURL=UserRepoting.css.map */

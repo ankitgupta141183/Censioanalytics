@@ -1,0 +1,84 @@
+.Admin_Table {
+  -webkit-box-shadow: 0px 2px 3px #72838e;
+          box-shadow: 0px 2px 3px #72838e;
+  min-width: 100%;
+}
+
+.Admin_Table a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.common-header {
+  text-transform: capitalize;
+}
+
+.Admin_Table tbody tr:hover {
+  background-color: #d1e1f8;
+  border-bottom: 3px solid #91c1ff !important;
+  border-top: 3px solid #91c1ff !important;
+}
+
+.Admin_Table tbody tr {
+  padding: 10px;
+  border-bottom: 2px solid #e6ebef;
+  height: 33px;
+  color: #72838e;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 90px;
+}
+
+.Admin_Table td {
+  padding: 2px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ebe4e4;
+  word-break: break-word;
+  font-size: 13px;
+}
+
+thead th {
+  width: auto !important;
+}
+
+.Admin_Table th {
+  padding: 8px 16px;
+  text-align: left;
+  border-bottom: 2px solid #e6ebef;
+  text-align: left;
+  font-size: 13px;
+  color: #72838e;
+  background: #f2f5f7;
+  position: relative;
+}
+
+.filter-input {
+  width: 86% !important;
+  border: 1px solid #e6ebef !important;
+  padding: 10px 4px !important;
+  font-size: 13px !important;
+  height: 30px !important;
+  margin: 0%;
+}
+
+.filter-input:focus-visible {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.sort-button {
+  padding: 0 !important;
+  background: transparent !important;
+  margin: 0px !important;
+  position: absolute;
+  top: 20px !important;
+  z-index: 1;
+}
+
+.sort-button:focus-visible {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=AdminComman.css.map */

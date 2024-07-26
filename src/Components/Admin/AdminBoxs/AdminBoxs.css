@@ -1,0 +1,99 @@
+.Admin_Box .Admin_box-blog {
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+  height: 100%;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.Admin_Box h3 {
+  font-size: 1.5rem;
+}
+
+.Admin_Box .text-center {
+  text-align: center;
+}
+
+.Admin_Box .box_count {
+  color: #1b75bc !important;
+}
+
+.Admin_Box .icon_container {
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 0 auto;
+  border-radius: 8px;
+}
+
+.Admin_Box .icon_container .icon {
+  font-size: 25px;
+}
+
+.Admin_Box .icon_1 {
+  background-color: #faebd7;
+}
+
+.Admin_Box .icon_1 .icon {
+  color: #e58f1c;
+}
+
+.Admin_Box .icon_2 {
+  background-color: #fad7ef;
+}
+
+.Admin_Box .icon_2 .icon {
+  color: #e166ba;
+}
+
+.Admin_Box .icon_3 {
+  background-color: #e1d7fa;
+}
+
+.Admin_Box .icon_3 .icon {
+  color: #8159e7;
+}
+
+.Admin_Box .icon_4 {
+  background-color: #98ffe2;
+}
+
+.Admin_Box .icon_4 .icon {
+  color: #0c684e;
+}
+
+.Admin_Box .view_details-sec {
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.Admin_Box .view_details-sec i {
+  margin-left: auto;
+}
+
+.Admin_Box .view_details-sec a {
+  color: #575757;
+}
+
+.Admin_Box .view_details-sec p {
+  margin: 0;
+}
+
+.Admin_Box .section_area {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+/*# sourceMappingURL=AdminBoxs.css.map */

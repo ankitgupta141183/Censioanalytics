@@ -1,0 +1,84 @@
+.userGame-inner {
+  margin-left: 225px !important;
+  padding-top: 133px;
+  height: calc(100vh - 20px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.userGame-inner .Admin_Table {
+  -webkit-box-shadow: 0px 2px 3px #72838e;
+          box-shadow: 0px 2px 3px #72838e;
+}
+
+.userGame-inner .Admin_Table a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.userGame-inner .Admin_Table tbody tr:hover {
+  background-color: #d1e1f8;
+  border-bottom: 3px solid #91c1ff !important;
+  border-top: 3px solid #91c1ff !important;
+}
+
+.userGame-inner .Admin_Table tbody tr {
+  padding: 10px;
+  border-bottom: 2px solid #e6ebef;
+  height: 33px;
+  color: #72838e;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 90px;
+}
+
+.userGame-inner .Admin_Table td {
+  padding: 2px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ebe4e4;
+  word-break: break-word;
+  font-size: 13px;
+}
+
+.userGame-inner thead th:nth-child(1) {
+  width: 4%;
+}
+
+.userGame-inner thead th:nth-child(3) {
+  width: 8%;
+}
+
+.userGame-inner thead th:nth-child(4) {
+  width: 8%;
+}
+
+.userGame-inner thead th:nth-child(5) {
+  width: 8%;
+}
+
+.userGame-inner .Admin_Table th {
+  padding: 8px 16px;
+  text-align: left;
+  border-bottom: 2px solid #e6ebef;
+  word-break: break-word;
+  text-align: left;
+  font-size: 13px;
+  color: #72838e;
+  background: #f2f5f7;
+}
+
+.userGame-inner .pagination-bg {
+  background: #f9f9f9;
+  text-align: center;
+}
+.userGame-inner .p-3 {
+  padding: 30px;
+}
+
+.userGame-inner table {
+  width: 100%;
+  background: #f9f9f9;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+/*# sourceMappingURL=UserGameInfo.css.map */

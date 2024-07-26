@@ -1,0 +1,17 @@
+ul.thumbs.animated {
+    display: none;
+  }
+  p.carousel-status{
+    display: none;
+  }  
+  .image-slide{
+    img{
+      height: 300px;
+    }
+  }
+  .image-carousel-parent{
+    
+  }
+  .carousel .slide iframe{
+    width: calc(100% - 50%);
+  }

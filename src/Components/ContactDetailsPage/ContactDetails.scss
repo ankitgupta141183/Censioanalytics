@@ -1,0 +1,113 @@
+@import "../../Core/Style/Variables.scss";
+
+.modal-padding {
+    // padding: 3rem 2rem 1rem 2rem;
+    font-size: 15px;
+
+
+}
+
+.chat-form {
+    form {
+        background-color: #E4FCFA;
+        border-radius: 1rem;
+        padding: 1rem 3rem;
+        width: 80%;
+        margin: auto;
+
+        @media screen and (max-width: $sm) {
+            width: 100%;
+        }
+
+        input {
+            border: 2px solid #7a7a7a !important;
+            padding: 14px !important;
+            margin: 20px 0 0 0;
+        }
+
+    }
+}
+
+.chat-form-user-active {
+
+    .row-bottom_gap-small {
+        margin-bottom: 16px !important;
+    }
+
+    form {
+        border-radius: 1rem;
+        padding: 1rem 3rem;
+        margin: auto;
+
+        @media screen and (max-width: $sm) {
+            width: 100%;
+        }
+    }
+
+
+}
+
+h6 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.font-big-h {
+    font-size: 25px !important;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+
+}
+
+.p-tag-font {
+    font-size: 22px !important;
+}
+
+.section-padding {
+
+
+    padding: 1.5rem 0;
+
+    img {
+        width: 200px;
+        margin-bottom: 12px;
+    }
+
+
+    textarea {
+        border: 2px solid #7a7a7a !important;
+    }
+    input {
+        border: 2px solid #7a7a7a !important;
+        padding: 14px !important;
+        margin: 20px 0 0 0;
+    }
+}
+
+.section-padding-second {
+    display: flex;
+    align-items: center;
+    height: 78%;
+
+    img {
+        width: 200px;
+        margin-bottom: 12px;
+    }
+
+ 
+}
+
+.text-right {
+    text-align: right;
+}
+
+.content {
+    .header {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .summary {
+        line-height: 1.5;
+    }
+}

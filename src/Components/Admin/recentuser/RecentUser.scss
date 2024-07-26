@@ -1,0 +1,31 @@
+.Recent_hearder{
+    margin-left: 225px !important;
+    padding-top: 133px;
+    height: calc(100vh - 20px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    .p-3 {
+        padding: 25px;
+    }
+    .header-tabs{
+        .DateInput{
+            padding: 6px !important;
+        }
+    }
+    
+    .vt-center{
+        align-items: center;
+    }
+    .download-button{
+        .Csv-button{
+            margin: 0 !important;
+        }
+    }
+    .justify-between{
+        justify-content: space-between;
+    }
+    .download{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}

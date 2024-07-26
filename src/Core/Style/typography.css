@@ -1,0 +1,620 @@
+/*$profile__form-border: #e0e1eb;*/
+.H1DesktopGreen {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H1DesktopBlack {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H1DesktopWhite {
+  font-family: Boxout02;
+  font-size: 54px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #f6f6f6;
+}
+
+.H2Desktop {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+}
+
+.H2DesktopGreen {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H2DesktopWhite {
+  font-family: Boxout02;
+  font-size: 36px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.H3Desktop {
+  font-family: Boxout02;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+}
+
+.H3BlackDesktop {
+  font-family: Boxout02;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H3WhiteDesktop {
+  font-family: Boxout02;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.H5DesktopGreen {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H5DesktopGrey {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #f5f8fe;
+}
+
+.H5DesktopBlack {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H4DesktopWhite {
+  font-family: Boxout02;
+  font-size: 21px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.H4DesktopBlack {
+  font-family: Boxout02;
+  font-size: 21px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H6Desktop {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+
+.H6DesktopGrey {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #f5f8fe;
+}
+
+.H6DesktopBlack {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.H6DesktopGreen {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.H6DesktopWhite {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyLargeWhite {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyDefault {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.BodyDefaultBold {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.BodyDefaultBoldGrey {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #f5f8fe;
+}
+
+.BodyDefaultBoldWhite {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodyDefaultBoldBlack {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodyDefaultRegularGrey {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #f5f8fe;
+}
+
+.BodyDefaultRegularBlack {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodySmallMediumGrey {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #f5f8fe;
+}
+
+.BodySmallMediumWhite {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodySmallMediumBlack {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.BodySmallMedium {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+
+.CTA {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+}
+
+.CTABlue {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #3035ff;
+}
+
+.CTAGrey {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #737373;
+}
+
+.CTAGreen {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #008067;
+}
+
+.CTABlack {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.CTARed {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ff542d;
+}
+
+.CTAWhite {
+  font-family: Hatch;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.BodySmallRegular {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+
+.BodySmallRegularWhite {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.BodySmallRegularGrey {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #737373;
+}
+
+.BodySmallRegularGreen {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #008067;
+}
+
+.BodySmallRegularBlack {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.LabelGrey {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #737373;
+}
+
+.LabelWhite {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.EyebrowBlack {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.EyebrowWhite {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.EyebrowGreen {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #008067;
+  text-transform: uppercase;
+}
+
+.EyebrowGrey {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+  color: #737373;
+  text-transform: uppercase;
+}
+
+.mainHeading {
+  font-size: 55px;
+  line-height: 60px;
+  color: #1f3d40;
+  font-weight: 800;
+}
+
+@media (max-width: 1400px) {
+  .mainHeading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mainHeading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainHeading {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.txtRegular {
+  font-size: 1.5rem;
+  color: #1f3d40;
+  font-weight: 400;
+}
+
+@media (max-width: 1400px) {
+  .txtRegular {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .txtRegular {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .txtRegular {
+    font-size: 0.8rem;
+  }
+}
+
+.txtSemibold {
+  font-size: 1.5rem;
+  color: #1f3d40;
+  font-weight: 800;
+}
+
+@media (max-width: 1400px) {
+  .txtSemibold {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .txtSemibold {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .txtSemibold {
+    font-size: 0.8rem;
+  }
+}
+
+.smmainHeading {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f3d40;
+  font-weight: 800;
+}
+/*# sourceMappingURL=typography.css.map */

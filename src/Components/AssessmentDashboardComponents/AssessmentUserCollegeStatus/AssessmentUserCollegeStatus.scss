@@ -1,0 +1,30 @@
+
+.user-status-container{
+    text-align: center;
+    .user-status_form {
+        width: 70%;
+        margin: auto;
+        border: 1px solid #e1dede;
+        border-radius: 10px;
+        padding: 44px 0;
+        background-color: #ffffff;
+        .user-status_form-header {
+            border-bottom: 1px solid #f3f3f3;
+            padding-bottom: 24px;
+            font-size: 20px;
+        }
+        .user-status_form-options {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 56px;
+            margin-top: 47px;
+            .user-status_form-labels {
+                margin: 0 4px 0 11px;
+                label {
+                    font-size: 16px;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}
